@@ -1,0 +1,447 @@
+{
+  "ChassisManager": {
+    "ChassisList": [
+      {
+        "ChassisName": "New chassis",
+        "Address": {
+          "HostName": "140.181.139.228",
+          "PortNumber": 22606,
+          "Password": "xena"
+        },
+        "ChassisIsDisconnected": false,
+        "DisplayName": "Chassis 0 'New chassis' (140.181.139.228)",
+        "ResourceIndex": 0,
+        "ItemId": "9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628",
+        "ParentId": ""
+      }
+    ]
+  },
+  "TestBedHandler": {
+    "SelectedTestBedId": "91813649-980a-4f9f-8c16-88c8d3fe7d12",
+    "EntityList": [
+      {
+        "Description": "",
+        "UsedPorts": [
+          {
+            "ChassisId": "9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628",
+            "ModuleIndex": 0,
+            "PortIndex": 0
+          },
+          {
+            "ChassisId": "9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628",
+            "ModuleIndex": 0,
+            "PortIndex": 1
+          },
+          {
+            "ChassisId": "9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628",
+            "ModuleIndex": 0,
+            "PortIndex": 2
+          },
+          {
+            "ChassisId": "9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628",
+            "ModuleIndex": 0,
+            "PortIndex": 3
+          },
+          {
+            "ChassisId": "9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628",
+            "ModuleIndex": 0,
+            "PortIndex": 4
+          },
+          {
+            "ChassisId": "9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628",
+            "ModuleIndex": 0,
+            "PortIndex": 5
+          },
+          {
+            "ChassisId": "9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628",
+            "ModuleIndex": 2,
+            "PortIndex": 0
+          },
+          {
+            "ChassisId": "9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628",
+            "ModuleIndex": 2,
+            "PortIndex": 1
+          },
+          {
+            "ChassisId": "9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628",
+            "ModuleIndex": 2,
+            "PortIndex": 2
+          },
+          {
+            "ChassisId": "9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628",
+            "ModuleIndex": 2,
+            "PortIndex": 3
+          },
+          {
+            "ChassisId": "9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628",
+            "ModuleIndex": 2,
+            "PortIndex": 5
+          },
+          {
+            "ChassisId": "9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628",
+            "ModuleIndex": 2,
+            "PortIndex": 4
+          },
+          {
+            "ChassisId": "9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628",
+            "ModuleIndex": 4,
+            "PortIndex": 2
+          },
+          {
+            "ChassisId": "9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628",
+            "ModuleIndex": 4,
+            "PortIndex": 1
+          },
+          {
+            "ChassisId": "9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628",
+            "ModuleIndex": 4,
+            "PortIndex": 0
+          },
+          {
+            "ChassisId": "9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628",
+            "ModuleIndex": 4,
+            "PortIndex": 3
+          },
+          {
+            "ChassisId": "9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628",
+            "ModuleIndex": 4,
+            "PortIndex": 4
+          },
+          {
+            "ChassisId": "9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628",
+            "ModuleIndex": 4,
+            "PortIndex": 5
+          }
+        ],
+        "PollAwaysPorts": [],
+        "ZeroRateCheckPorts": [],
+        "ShowOnlyUsedPorts": false,
+        "PortGridPropertySelector": {
+          "ShowReadOnlyProperties": true,
+          "DisabledGroups": [],
+          "DisabledProperties": []
+        },
+        "StreamGridPropertySelector": {
+          "ShowReadOnlyProperties": true,
+          "DisabledGroups": [],
+          "DisabledProperties": []
+        },
+        "UsePortTxTimeForDuration": false,
+        "LoggingDefinition": {
+          "EnableLogging": false,
+          "EnabledFields": {
+            "TxBps": true,
+            "TxFps": true,
+            "TxBytes": true,
+            "TxFrames": true,
+            "RxBps": true,
+            "RxFps": true,
+            "RxBytes": true,
+            "RxFrames": true,
+            "RxFcsErrors": true,
+            "RxSeqErr": true,
+            "RxMisErr": true,
+            "RxPldErr": true,
+            "RxBer": true,
+            "LatencyCurr": true,
+            "LatencyCurrMin": true,
+            "LatencyCurrMax": true,
+            "LatencyAvg": true,
+            "LatencyMin": true,
+            "LatencyMax": true,
+            "JitterCurr": true,
+            "JitterCurrMin": true,
+            "JitterCurrMax": true,
+            "JitterAvg": true,
+            "JitterMin": true,
+            "JitterMax": true
+          },
+          "LogScheduleSettings": {
+            "PollInterval": "00:00:01",
+            "LoggingPeriod": "01:00:00",
+            "RunUntilStopped": false,
+            "UseGlobalTrafficStartStop": false
+          },
+          "FileSettings": {
+            "LogFileType": "CSV",
+            "LogFileNamePrefix": "statslog",
+            "AppendTimestamp": true,
+            "SeparateRunDirs": true,
+            "UseRollOverFileSize": true,
+            "RollOverFileSize": 10000,
+            "UseMaxArchiveFiles": true,
+            "MaxArchiveFiles": 10,
+            "CompressArchiveFiles": true
+          },
+          "ItemId": "4a873e15-48b0-49df-b9b1-4e4189586060",
+          "ParentId": "",
+          "DisplayName": ""
+        },
+        "StreamWizardDefinition": {
+          "TopologyHandler": {
+            "StreamTopology": "MESH",
+            "StreamDirection": "BIDIR",
+            "TidAllocationScope": "ConfigScope"
+          },
+          "PortHandler": {
+            "ResetPorts": true,
+            "PortConfigMap": {
+              "P_9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628_0_0": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,30",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "DisplayName": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "a84dca52-f94b-4ba5-bbbb-bc05b7f63f02",
+                "ParentId": ""
+              },
+              "P_9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628_0_1": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,31",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "DisplayName": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "e04468fd-b0dd-4326-a502-970c598db0fa",
+                "ParentId": ""
+              },
+              "P_9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628_0_2": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,32",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "DisplayName": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "4a01be51-4930-4cf0-bc84-af895d0f2642",
+                "ParentId": ""
+              },
+              "P_9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628_0_3": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,33",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "DisplayName": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "8aa59378-89ff-49ba-903d-2e30e6e45cc5",
+                "ParentId": ""
+              },
+              "P_9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628_0_4": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,34",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "DisplayName": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "0d30366f-1754-4204-998c-bfff7eac4877",
+                "ParentId": ""
+              },
+              "P_9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628_0_5": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,35",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "DisplayName": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "9e9e75d8-c1bb-4ab6-83ba-53f1b33c8006",
+                "ParentId": ""
+              },
+              "P_9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628_2_0": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,30",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "DisplayName": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "3873da8b-349b-4ebc-a961-ea8b18df5fd9",
+                "ParentId": ""
+              },
+              "P_9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628_2_1": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,31",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "DisplayName": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "49802e34-d9ec-4d48-9b49-8ea35aa1c7ed",
+                "ParentId": ""
+              },
+              "P_9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628_2_2": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,32",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "DisplayName": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "b4588904-c8d3-473c-b414-2f34e05f1825",
+                "ParentId": ""
+              },
+              "P_9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628_2_3": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,33",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "DisplayName": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "6ccbd3d4-aed4-4d5b-be43-0a417f0d1336",
+                "ParentId": ""
+              },
+              "P_9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628_2_5": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,35",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "DisplayName": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "b67585eb-d71e-45df-b066-edb69ab79762",
+                "ParentId": ""
+              },
+              "P_9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628_2_4": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,34",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "DisplayName": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "ab63f421-acaf-4dfa-87d5-0c7022425839",
+                "ParentId": ""
+              },
+              "P_9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628_4_2": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,32",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "DisplayName": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "8061ea49-fb72-4fe6-8a58-bd3caa470406",
+                "ParentId": ""
+              },
+              "P_9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628_4_1": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,31",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "DisplayName": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "8a2b9724-3896-4095-9bb7-496e6a760279",
+                "ParentId": ""
+              },
+              "P_9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628_4_0": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,30",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "DisplayName": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "5449cbc3-88f3-4e5b-896a-b3e62b2b2d98",
+                "ParentId": ""
+              },
+              "P_9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628_4_3": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,33",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "DisplayName": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "6e4689cb-a91e-4a5c-85e5-27fd806e6cad",
+                "ParentId": ""
+              },
+              "P_9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628_4_4": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,34",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "DisplayName": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "1e1c76d7-7520-4fbe-9626-9a896213639e",
+                "ParentId": ""
+              },
+              "P_9643ab86-a0cf-4ca4-b1d8-f6fe14ddb628_4_5": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,35",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "DisplayName": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "e086bc50-f2cb-4cc4-8b9b-987a6cad27ba",
+                "ParentId": ""
+              }
+            },
+            "PortPeerRelations": {
+              "Relations": []
+            },
+            "UsedPortProperties": {
+              "EnabledGroups": [],
+              "EnabledProperties": [
+                "Description",
+                "SpeedSelection"
+              ]
+            }
+          },
+          "StreamHandler": {
+            "RemoveExistingStreams": true,
+            "ArpForGateways": true,
+            "StreamCountPerPort": 1,
+            "StreamConfigMap": {
+              "0": {
+                "SavedPropertyValueMap": {
+                  "PS_ENABLE": "01",
+                  "PS_COMMENT": "53,74,72,65,61,6D",
+                  "PS_PACKETHEADER": "00,00,00,00,00,00,00,00,00,00,00,00,FF,FF",
+                  "PS_HEADERPROTOCOL": "01",
+                  "PS_RATEFRACTION": "00,01,86,A0"
+                },
+                "DisplayName": "Stream 0/0",
+                "ResourceIndex": 0,
+                "ItemId": "de8326bf-d2a5-4bb0-b6f3-60c140394b60",
+                "ParentId": ""
+              }
+            },
+            "UsedStreamProperties": {
+              "EnabledGroups": [],
+              "EnabledProperties": [
+                "Description",
+                "EnableState",
+                "TxRatePcnt"
+              ]
+            }
+          },
+          "ItemId": "92684dcf-529e-4acc-87f3-4c7691368896",
+          "ParentId": "",
+          "DisplayName": ""
+        },
+        "ChartingSettings": {
+          "ShowTrackBall": true,
+          "MaxSamples": 100,
+          "ChartDefinitions": []
+        },
+        "ItemId": "91813649-980a-4f9f-8c16-88c8d3fe7d12",
+        "ParentId": "",
+        "DisplayName": "Default testbed"
+      }
+    ]
+  },
+  "FormatVersion": 1,
+  "ApplicationVersion": "1.29 (1.29.5877.37650)",
+  "ItemId": "4bcdc04d-3ea8-4af5-9f17-139337ab7bc2",
+  "ParentId": "",
+  "DisplayName": ""
+}

@@ -1,0 +1,30 @@
+
+wrs_vlans --ep 0 --emode 1
+wrs_vlans --ep 1 --emode 1
+wrs_vlans --ep 2 --emode 1
+wrs_vlans --ep 3 --emode 1
+wrs_vlans --ep 4 --emode 1
+wrs_vlans --ep 5 --emode 1
+wrs_vlans --ep 6 --emode 1
+wrs_vlans --ep 7 --emode 1
+wrs_vlans --ep 8 --emode 1
+wrs_vlans --ep 9 --emode 1
+wrs_vlans --ep 10 --emode 1
+wrs_vlans --ep 11 --emode 1
+wrs_vlans --ep 12 --emode 1
+wrs_vlans --ep 13 --emode 1
+wrs_vlans --ep 14 --emode 1
+wrs_vlans --ep 15 --emode 1
+wrs_vlans --ep 16 --emode 1
+wrs_vlans --ep 17 --emode 1
+
+# All 18 ports belong to VLAN 7, Only Port 1 and 2 belongs to VLAN 6, all ports belong to VLAN 5.  
+wrs_vlans --rvid 5 --rfid 5 --rmask 0x3ffff --rprio 5
+wrs_vlans --rvid 6 --rfid 6 --rmask 0x3ffff --rprio 6
+wrs_vlans --rvid 7 --rfid 7 --rmask 0x3ffff --rprio 7
+
+/etc/init.d/ppsi.sh stop
+/etc/init.d/monit.sh stop
+
+wrs_vlans --list
+wrs_vlans --elist

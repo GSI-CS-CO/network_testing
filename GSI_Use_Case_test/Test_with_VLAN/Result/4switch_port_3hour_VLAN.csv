@@ -1,0 +1,58 @@
+Global Port Statistics Counters:,,,,,,,,,,,,,,,,,,
+ID:,,,,,,,,,,,,,,,,,,
+  DisplayName,P-0-0-0,P-0-0-2,P-0-4-4,P-0-0-1,P-0-0-3,P-0-0-4,P-0-0-5,P-0-2-0,P-0-2-2,P-0-2-3,P-0-2-4,P-0-2-5,P-0-4-0,P-0-4-1,P-0-4-2,P-0-4-3,P-0-4-5,P-0-2-1
+Summary:,,,,,,,,,,,,,,,,,,
+  Description,Port number 0,Port number 1,Port number 1,Port number 1,Port number 3,Port number 4,Port number 5,Port number 0,Port number 2,Port number 3,Port number 4,Port number 5,Port number 0,Port number 1,Port number 2,Port number 3,Port number 3,Port number 1
+  PortSpeed,1 Gbit/s,1 Gbit/s,1 Gbit/s,1 Gbit/s,1 Gbit/s,1 Gbit/s,1 Gbit/s,1 Gbit/s,1 Gbit/s,1 Gbit/s,1 Gbit/s,1 Gbit/s,1 Gbit/s,1 Gbit/s,1 Gbit/s,1 Gbit/s,1 Gbit/s,1 Gbit/s
+  PortSyncState,IN SYNC,IN SYNC,IN SYNC,IN SYNC,IN SYNC,IN SYNC,IN SYNC,IN SYNC,IN SYNC,IN SYNC,IN SYNC,IN SYNC,IN SYNC,IN SYNC,IN SYNC,IN SYNC,IN SYNC,IN SYNC
+  FcsStatus,FCS OK,FCS OK,FCS ERRORS,FCS OK,FCS OK,FCS OK,FCS OK,FCS ERRORS,FCS ERRORS,FCS ERRORS,FCS ERRORS,FCS ERRORS,FCS ERRORS,FCS ERRORS,FCS ERRORS,FCS ERRORS,FCS ERRORS,FCS ERRORS
+  FcsErrorCount,0,0,95369,0,0,0,0,66,38,55,334,724,1116,7644,6336,2932,109898,111
+  TotalErrorCount,0,50690,190647,50690,50690,50690,50690,50404,50348,50382,666,1442,2230,15298,12672,5834,219785,50494
+TX Totals:,,,,,,,,,,,,,,,,,,
+  TxPercent,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  TxBpsL1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  TxBpsL2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  TxPps,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  TxBytes,131500508260,13150058460,5786220,0,0,0,1315214991,2630571939,0,1315216803,0,0,2630571939,1315216803,1315218171,32403140,2630577256,0
+  TxPackets,1195459166,119545986,52602,0,0,0,1662461,3324923,0,1662463,0,0,3324923,1662463,1662464,294574,3324930,0
+RX Totals:,,,,,,,,,,,,,,,,,,
+  RxPercent,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  RxBpsL1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  RxBpsL2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  RxPps,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  RxBytes,26340835722,144685697522,157721061702,157835755982,157835755982,157835755982,156520540991,155205145818,157835752390,156520518023,157835163811,157834696722,155203567419,156511082229,156512672911,157799880489,155072635622,157835658496
+  RxPackets,136517789,1212380169,1331830593,1331926155,1331926155,1331926155,1330263694,1328601586,1331926537,1330264057,1331924191,1331923974,1328598488,1330254236,1330255553,1331628910,1328489675,1331926464
+TX (No Test Payload):,,,,,,,,,,,,,,,,,,
+  TxNonPldBpsL2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  TxNonPldPps,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  TxNonPldBytes,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  TxNonPldPackets,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+RX (No Test Payload):,,,,,,,,,,,,,,,,,,
+  RxNonPldBpsL2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  RxNonPldPps,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  RxNonPldBytes,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  RxNonPldPackets,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TX ARP/NDP/PING:,,,,,,,,,,,,,,,,,,
+  TxArpRequests,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  TxArpReplies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  TxPingRequests,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  TxPingReplies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+TX Misc:,,,,,,,,,,,,,,,,,,
+  TxTraining,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  TxIgmpJoin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Injected Errors:,,,,,,,,,,,,,,,,,,
+  TxInjectedFcs,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  TxInjectedSeq,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  TxInjectedMis,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  TxInjectedIntegErr,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  TxInjectedTidErr,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+RX ARP/NDP/PING:,,,,,,,,,,,,,,,,,,
+  RxArpRequests,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  RxArpReplies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  RxPingRequests,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  RxPingReplies,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+RX Misc:,,,,,,,,,,,,,,,,,,
+  RxFcsErrors,0,0,95369,0,0,0,0,66,38,55,334,724,1116,7644,6336,2932,109898,111
+  RxPauseFrames,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  RxGapCount,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+  RxGapDuration,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
