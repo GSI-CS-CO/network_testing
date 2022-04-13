@@ -1,0 +1,57 @@
+1. VLAN by XenaBay
+
+nwt0297m66, configuration = 'timing_trunk_latency_xena' (derived from 'timing_mps_access_xena')
+
+port  | mode   | VID | prio | PTP VID | VLAN membership     | node
+
+wri3  | trunk  | -   | -1   | 2601    | 5                   | P000 (VID=7, prio=7, DM broadcast, 100 Mbps)
+wri4  | trunk  | -   | -1   | 2601    | 5 6 7               | P001 (measurement)
+wri5  | trunk  | -   | -1   | 2601    | 5                   | P002 (VID=7, prio=7, DM unicast, 10 Mbps)
+
+wri8  | trunk  | -   | -1   | 2601    |   6 7               | P005 (VID=5, prio=7, Mngt traffic, 1 Mbps)
+wri9  | trunk  | -   | -1   | 2601    |   6 7               | P020 (VID=5, prio=7, Mngt traffic, 2 Mbps)
+
+wri16 | trunk  | -   | -1   | 2601    | 5   7               | P043 (VID=6, prio=5, 16 MPS flags, 422,4 Kbps)
+wri17 | trunk  | -   | -1   | 2601    | 5   7               | P044 (VID=6, prio=5, 1 MPS flag, 26,4 Kbps)
+wri18 | trunk  | -   | -1   | 2601    | 5 6 7               | P045 (measurement)
+
+WRS: make nconfig
+    - VLANS
+        - Ports configuration
+            trunk mode, untag none, prio=-1, VID=() PVID=2601 for ports 3;4;5;8;9;16;17;18
+        - VLANS configuration
+            (fid=2592,ports=2;6;7;10;11;12;13;14;15) VLAN2592 configuration
+            (fid=2601,ports=2;6;7;10;11;12;13;14;15) VLAN2600 configuration
+
+2. VLAN by WRS
+
+nwt0297m66, configuration = 'timing_access_latency_xena' (derived from 'timing_trunk_latency_xena')
+
+port  | mode   | VID  | prio | PTP VID | VLAN membership     | node
+wri1  | trunk  | -    | -    | 2601    | 2595 2601           | uplink
+
+wri2  | access | 2601 | 5    | -       | 2592 2595 2600      | scuxl0497 (RX node)
+
+wri3  | access | 7    | 7    | -       | 5                   | P000 (DM broadcast, 100 Mbps)
+wri4  | access | -    | -1   | 2601    | 5 6 7               | P001 (measurement)
+wri5  | access | 7    | 7    | -       | 5                   | P002 (DM unicast, 10 Mbps)
+
+wri8  | access | 5    | 7    | -       |   6 7               | P005 (Mngt traffic, 1 Mbps)
+wri9  | access | 5    | 7    | -       |   6 7               | P200 (Mngt traffic, 2 Mbps)
+
+wri12 | access | 2595 | 5    | -       | 2600                | scuxl0396 (TX node)
+
+wri16 | access | 6    | 5    | -       | 5   7               | P403 (16 MPS flags, 422,4 Kbps)
+wri17 | access | 6    | 5    | -       | 5   7               | P404 (1 MPS flag, 26,4 Kbps)
+wri18 | access | -    | -1   | 2601    | 5 6 7               | P405 (measurement)
+
+WRS: make nconfig
+    - VLANS
+        - Ports configuration
+            access mode, untag all for ports 3;4;5;8;9;16;17;18
+                VID=7, prio=7 for ports 3;5
+                VID=5, prio=7 for ports 8;9
+                VID=6, prio=5 for ports 16;17
+                VID=(), prio=-1, PTP_VID=2601 for ports 4;18
+         - VLANS configuration same as in 'timing_trunk_latency_xena'
+

@@ -1,0 +1,56 @@
+1. nwt0010, configuration = 'timing_localmaster_4wrs_latency_xena'
+
+port  | mode   | VID  | prio | PTP VID | VLAN membership     | node
+wri15 | access | 7    | 7    | -       | 5 6                 | P000 (DM broadcast, 100 Mbps)
+wri16 | access | 7    | 7    | -       | 5 6                 | P002 (DM broadcast, 10 Mbps)
+wri18 | access | -    | -1   | 2601    | 5 6 7               | P001 (measurement)
+
+- VLANS
+    - Ports configuration
+        access mode, untag all for ports 15;16;18
+            VID=7, prio=7 for ports 15;16
+            VID=(), prio=-1, PTP_VID=2601 for ports 18
+     - VLANS configuration
+        CONFIG_VLANS_VLAN0005="fid=5,ports=15;16;18"
+        CONFIG_VLANS_VLAN0006="fid=6,ports=15;16;18"
+        CONFIG_VLANS_VLAN0007="fid=7,ports=2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18"
+
+2-3. nwt0296/0016, configuration = 'timing_distribution_4wrs_latency_xena'
+
+port  | mode   | VID  | prio | PTP VID | VLAN membership     | node
+wri1  | trunk  | -    | -    | 2601    | 5 6 2595 2601       | uplink
+
+wri18 | access | -    | -1   | 2601    | 5 6 7               | P041/042 (measurement)
+
+- VLANS
+    - Ports configuration
+        access mode, untag all, VID=(), prio=-1, PTP_VID=2601 for ports 18
+    - VLANS configuration
+        CONFIG_VLANS_VLAN0005="fid=5,ports=1;18"
+        CONFIG_VLANS_VLAN0006="fid=6,ports=1;18"
+        CONFIG_VLANS_VLAN0007="fid=7,ports=2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18"
+
+4. nwt0297, configuration = 'timing_access_4wrs_latency_xena'
+
+port  | mode   | VID  | prio | PTP VID | VLAN membership     | node
+wri1  | trunk  | -    | -    | 2601    | 5 6 7 2595 2601     | uplink
+
+wri7  | access | -    | -1   | 2601    | 5 6 7               | P004 (measurement)
+wri8  | access | 5    | 7    | -       |   6 7               | P005 (Mngt traffic, 1 Mbps)
+wri9  | access | 5    | 7    | -       |   6 7               | P020 (Mngt traffic, 2 Mbps)
+
+wri16 | access | 6    | 5    | -       | 5   7               | P043 (16 MPS flags, 422,4 Kbps)
+wri17 | access | 6    | 5    | -       | 5   7               | P044 (1 MPS flag, 26,4 Kbps)
+wri18 | access | -    | -1   | 2601    | 5 6 7               | P045 (measurement)
+
+- VLANS
+    - Ports configuration
+        access mode, untag all for ports 4;8;9;16;17;18
+            VID=5, prio=7 for ports 8;9
+            VID=6, prio=5 for ports 16;17
+            VID=(), prio=-1, PTP_VID=2601 for ports 4;7;18
+    - VLANS configuration
+        CONFIG_VLANS_VLAN0005="fid=5,ports=1;4;7;16;17;18"
+        CONFIG_VLANS_VLAN0006="fid=6,ports=1;4;7;8;9;18"
+        CONFIG_VLANS_VLAN0007="fid=7,ports=1;4;7;8;9;16;17;18"
+        CONFIG_VLANS_VLAN2600="fid=2601,ports=2;3;5;6;10;11;12;13;14;15"
