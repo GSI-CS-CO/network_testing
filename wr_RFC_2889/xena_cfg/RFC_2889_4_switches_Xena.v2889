@@ -1662,7 +1662,7 @@
         "PortRoleHandler": {
           "RoleMap": {
             "guid_769b2ffe-04be-4dee-9de2-08d4c8b8cc91": {
-              "IsUsed": false,
+              "IsUsed": true,
               "Role": "TestPort",
               "PeerPortId": ""
             },
@@ -1677,12 +1677,12 @@
               "PeerPortId": ""
             },
             "guid_981a312b-5ff2-4371-939a-42d51bd0a276": {
-              "IsUsed": false,
+              "IsUsed": true,
               "Role": "LearningPort",
               "PeerPortId": ""
             },
             "guid_e815e634-2e9f-4619-9a7b-4cdb416d3f02": {
-              "IsUsed": false,
+              "IsUsed": true,
               "Role": "MonitoringPort",
               "PeerPortId": ""
             },
@@ -1707,18 +1707,18 @@
               "PeerPortId": ""
             },
             "guid_1333901f-0e89-4fe5-9d98-b5fad53a7d9f": {
-              "IsUsed": true,
+              "IsUsed": false,
               "Role": "TestPort",
               "PeerPortId": ""
             },
             "guid_4b7e4d3a-60b7-404d-be6c-c83c9c0b93e9": {
-              "IsUsed": true,
-              "Role": "LearningPort",
+              "IsUsed": false,
+              "Role": "TestPort",
               "PeerPortId": ""
             },
             "guid_bce34fee-dc89-431a-a907-efe98d54ef7e": {
-              "IsUsed": true,
-              "Role": "MonitoringPort",
+              "IsUsed": false,
+              "Role": "TestPort",
               "PeerPortId": ""
             }
           }
@@ -1766,7 +1766,7 @@
         "PortRoleHandler": {
           "RoleMap": {
             "guid_769b2ffe-04be-4dee-9de2-08d4c8b8cc91": {
-              "IsUsed": false,
+              "IsUsed": true,
               "Role": "TestPort",
               "PeerPortId": ""
             },
@@ -1781,12 +1781,12 @@
               "PeerPortId": ""
             },
             "guid_981a312b-5ff2-4371-939a-42d51bd0a276": {
-              "IsUsed": false,
+              "IsUsed": true,
               "Role": "LearningPort",
               "PeerPortId": ""
             },
             "guid_e815e634-2e9f-4619-9a7b-4cdb416d3f02": {
-              "IsUsed": false,
+              "IsUsed": true,
               "Role": "MonitoringPort",
               "PeerPortId": ""
             },
@@ -1806,18 +1806,18 @@
               "PeerPortId": ""
             },
             "guid_1333901f-0e89-4fe5-9d98-b5fad53a7d9f": {
-              "IsUsed": true,
+              "IsUsed": false,
               "Role": "TestPort",
               "PeerPortId": ""
             },
             "guid_4b7e4d3a-60b7-404d-be6c-c83c9c0b93e9": {
-              "IsUsed": true,
-              "Role": "LearningPort",
+              "IsUsed": false,
+              "Role": "TestPort",
               "PeerPortId": ""
             },
             "guid_bce34fee-dc89-431a-a907-efe98d54ef7e": {
-              "IsUsed": true,
-              "Role": "MonitoringPort",
+              "IsUsed": false,
+              "Role": "TestPort",
               "PeerPortId": ""
             }
           }
@@ -2062,7 +2062,7 @@
     "CustomerName": "GSI TOS",
     "CustomerServiceID": "",
     "CustomerAccessID": "",
-    "Comments": "Partial test\r\n- host: acopc061 (VB guest Win81)\r\n- chassis: Xenabay (140.181.139.228)\r\n- configuration: https://github.com/GSI-CS-CO/network_testing\r\n\r\nDUT\r\n- WRS: backplane v3.30, scb v3.4, Creotech\r\n- name: nwt0297\r\n- fw: v6.1\r\n- dot-config: default",
+    "Comments": "Partial test\r\n- host: acopc061 (VB guest Win81)\r\n- chassis: Xenabay (140.181.139.228)\r\n- configuration: https://github.com/GSI-CS-CO/network_testing\r\n\r\nDUT\r\n- WRS: backplane v3.30, scb v3.4, Creotech\r\n- name: nwt0010/0016/0296/0297\r\n- fw: v6.1\r\n- dot-config: default",
     "RateUnitTerminology": "FPS",
     "IncludeTestPairInfo": true,
     "IncludePerStreamInfo": false,
