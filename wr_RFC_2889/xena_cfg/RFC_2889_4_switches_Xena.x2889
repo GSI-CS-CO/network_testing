@@ -15,10 +15,12 @@
         "InterFrameGap": 20,
         "PauseModeOn": false,
         "AutoNegEnabled": true,
+        "AnltEnabled": false,
         "AdjustPpm": 0,
         "LatencyOffset": 0,
         "MdiMdixMode": "AUTO",
-        "EnableFec": true,
+        "FecMode": "OFF",
+        "BrrMode": "SLAVE",
         "ReplyArpRequests": true,
         "ReplyPingRequests": true,
         "IpV4Address": "0.0.0.0",
@@ -58,10 +60,12 @@
         "InterFrameGap": 20,
         "PauseModeOn": false,
         "AutoNegEnabled": true,
+        "AnltEnabled": false,
         "AdjustPpm": 0,
         "LatencyOffset": 0,
         "MdiMdixMode": "AUTO",
-        "EnableFec": true,
+        "FecMode": "OFF",
+        "BrrMode": "SLAVE",
         "ReplyArpRequests": true,
         "ReplyPingRequests": true,
         "IpV4Address": "0.0.0.0",
@@ -101,10 +105,12 @@
         "InterFrameGap": 20,
         "PauseModeOn": false,
         "AutoNegEnabled": true,
+        "AnltEnabled": false,
         "AdjustPpm": 0,
         "LatencyOffset": 0,
         "MdiMdixMode": "AUTO",
-        "EnableFec": true,
+        "FecMode": "OFF",
+        "BrrMode": "SLAVE",
         "ReplyArpRequests": true,
         "ReplyPingRequests": true,
         "IpV4Address": "0.0.0.0",
@@ -144,10 +150,12 @@
         "InterFrameGap": 20,
         "PauseModeOn": false,
         "AutoNegEnabled": true,
+        "AnltEnabled": false,
         "AdjustPpm": 0,
         "LatencyOffset": 0,
         "MdiMdixMode": "AUTO",
-        "EnableFec": true,
+        "FecMode": "OFF",
+        "BrrMode": "SLAVE",
         "ReplyArpRequests": true,
         "ReplyPingRequests": true,
         "IpV4Address": "0.0.0.0",
@@ -187,10 +195,12 @@
         "InterFrameGap": 20,
         "PauseModeOn": false,
         "AutoNegEnabled": true,
+        "AnltEnabled": false,
         "AdjustPpm": 0,
         "LatencyOffset": 0,
         "MdiMdixMode": "AUTO",
-        "EnableFec": true,
+        "FecMode": "OFF",
+        "BrrMode": "SLAVE",
         "ReplyArpRequests": true,
         "ReplyPingRequests": true,
         "IpV4Address": "0.0.0.0",
@@ -230,10 +240,12 @@
         "InterFrameGap": 20,
         "PauseModeOn": false,
         "AutoNegEnabled": true,
+        "AnltEnabled": false,
         "AdjustPpm": 0,
         "LatencyOffset": 0,
         "MdiMdixMode": "AUTO",
-        "EnableFec": true,
+        "FecMode": "OFF",
+        "BrrMode": "SLAVE",
         "ReplyArpRequests": true,
         "ReplyPingRequests": true,
         "IpV4Address": "0.0.0.0",
@@ -273,10 +285,12 @@
         "InterFrameGap": 20,
         "PauseModeOn": false,
         "AutoNegEnabled": true,
+        "AnltEnabled": false,
         "AdjustPpm": 0,
         "LatencyOffset": 0,
         "MdiMdixMode": "AUTO",
-        "EnableFec": true,
+        "FecMode": "OFF",
+        "BrrMode": "SLAVE",
         "ReplyArpRequests": true,
         "ReplyPingRequests": true,
         "IpV4Address": "0.0.0.0",
@@ -316,10 +330,12 @@
         "InterFrameGap": 20,
         "PauseModeOn": false,
         "AutoNegEnabled": true,
+        "AnltEnabled": false,
         "AdjustPpm": 0,
         "LatencyOffset": 0,
         "MdiMdixMode": "AUTO",
-        "EnableFec": true,
+        "FecMode": "OFF",
+        "BrrMode": "SLAVE",
         "ReplyArpRequests": true,
         "ReplyPingRequests": true,
         "IpV4Address": "0.0.0.0",
@@ -359,10 +375,12 @@
         "InterFrameGap": 20,
         "PauseModeOn": false,
         "AutoNegEnabled": true,
+        "AnltEnabled": false,
         "AdjustPpm": 0,
         "LatencyOffset": 0,
         "MdiMdixMode": "AUTO",
-        "EnableFec": true,
+        "FecMode": "OFF",
+        "BrrMode": "SLAVE",
         "ReplyArpRequests": true,
         "ReplyPingRequests": true,
         "IpV4Address": "0.0.0.0",
@@ -402,10 +420,12 @@
         "InterFrameGap": 20,
         "PauseModeOn": false,
         "AutoNegEnabled": true,
+        "AnltEnabled": false,
         "AdjustPpm": 0,
         "LatencyOffset": 0,
         "MdiMdixMode": "AUTO",
-        "EnableFec": true,
+        "FecMode": "OFF",
+        "BrrMode": "SLAVE",
         "ReplyArpRequests": true,
         "ReplyPingRequests": true,
         "IpV4Address": "0.0.0.0",
@@ -445,10 +465,12 @@
         "InterFrameGap": 20,
         "PauseModeOn": false,
         "AutoNegEnabled": true,
+        "AnltEnabled": false,
         "AdjustPpm": 0,
         "LatencyOffset": 0,
         "MdiMdixMode": "AUTO",
-        "EnableFec": true,
+        "FecMode": "OFF",
+        "BrrMode": "SLAVE",
         "ReplyArpRequests": true,
         "ReplyPingRequests": true,
         "IpV4Address": "0.0.0.0",
@@ -488,10 +510,12 @@
         "InterFrameGap": 20,
         "PauseModeOn": false,
         "AutoNegEnabled": true,
+        "AnltEnabled": false,
         "AdjustPpm": 0,
         "LatencyOffset": 0,
         "MdiMdixMode": "AUTO",
-        "EnableFec": true,
+        "FecMode": "OFF",
+        "BrrMode": "SLAVE",
         "ReplyArpRequests": true,
         "ReplyPingRequests": true,
         "IpV4Address": "0.0.0.0",
@@ -531,10 +555,12 @@
         "InterFrameGap": 20,
         "PauseModeOn": false,
         "AutoNegEnabled": true,
+        "AnltEnabled": false,
         "AdjustPpm": 0,
         "LatencyOffset": 0,
         "MdiMdixMode": "AUTO",
-        "EnableFec": true,
+        "FecMode": "OFF",
+        "BrrMode": "SLAVE",
         "ReplyArpRequests": true,
         "ReplyPingRequests": true,
         "IpV4Address": "0.0.0.0",
@@ -574,10 +600,12 @@
         "InterFrameGap": 20,
         "PauseModeOn": false,
         "AutoNegEnabled": true,
+        "AnltEnabled": false,
         "AdjustPpm": 0,
         "LatencyOffset": 0,
         "MdiMdixMode": "AUTO",
-        "EnableFec": true,
+        "FecMode": "OFF",
+        "BrrMode": "SLAVE",
         "ReplyArpRequests": true,
         "ReplyPingRequests": true,
         "IpV4Address": "0.0.0.0",
@@ -617,10 +645,12 @@
         "InterFrameGap": 20,
         "PauseModeOn": false,
         "AutoNegEnabled": true,
+        "AnltEnabled": false,
         "AdjustPpm": 0,
         "LatencyOffset": 0,
         "MdiMdixMode": "AUTO",
-        "EnableFec": true,
+        "FecMode": "OFF",
+        "BrrMode": "SLAVE",
         "ReplyArpRequests": true,
         "ReplyPingRequests": true,
         "IpV4Address": "0.0.0.0",
@@ -660,10 +690,12 @@
         "InterFrameGap": 20,
         "PauseModeOn": false,
         "AutoNegEnabled": true,
+        "AnltEnabled": false,
         "AdjustPpm": 0,
         "LatencyOffset": 0,
         "MdiMdixMode": "AUTO",
-        "EnableFec": true,
+        "FecMode": "OFF",
+        "BrrMode": "SLAVE",
         "ReplyArpRequests": true,
         "ReplyPingRequests": true,
         "IpV4Address": "0.0.0.0",
@@ -703,10 +735,12 @@
         "InterFrameGap": 20,
         "PauseModeOn": false,
         "AutoNegEnabled": true,
+        "AnltEnabled": false,
         "AdjustPpm": 0,
         "LatencyOffset": 0,
         "MdiMdixMode": "AUTO",
-        "EnableFec": true,
+        "FecMode": "OFF",
+        "BrrMode": "SLAVE",
         "ReplyArpRequests": true,
         "ReplyPingRequests": true,
         "IpV4Address": "0.0.0.0",
@@ -746,10 +780,12 @@
         "InterFrameGap": 20,
         "PauseModeOn": false,
         "AutoNegEnabled": true,
+        "AnltEnabled": false,
         "AdjustPpm": 0,
         "LatencyOffset": 0,
         "MdiMdixMode": "AUTO",
-        "EnableFec": true,
+        "FecMode": "OFF",
+        "BrrMode": "SLAVE",
         "ReplyArpRequests": true,
         "ReplyPingRequests": true,
         "IpV4Address": "0.0.0.0",
@@ -1101,92 +1137,92 @@
               "Direction": "BIDIR",
               "PortRoleHandler": {
                 "RoleMap": {
-                  "804e3a65-ad71-4183-b1ec-1032f8e469b0": {
+                  "guid_804e3a65-ad71-4183-b1ec-1032f8e469b0": {
                     "IsUsed": true,
                     "Role": "UNDEFINED",
                     "PeerPortId": ""
                   },
-                  "7a09cb16-633f-4ae6-bca8-6ca66a92af2d": {
+                  "guid_7a09cb16-633f-4ae6-bca8-6ca66a92af2d": {
                     "IsUsed": true,
                     "Role": "UNDEFINED",
                     "PeerPortId": ""
                   },
-                  "b64b43c5-804f-456a-aad2-a1617d180f03": {
+                  "guid_b64b43c5-804f-456a-aad2-a1617d180f03": {
                     "IsUsed": true,
                     "Role": "UNDEFINED",
                     "PeerPortId": ""
                   },
-                  "caccfe8e-df43-4441-a4b8-c98215ef83f4": {
+                  "guid_caccfe8e-df43-4441-a4b8-c98215ef83f4": {
                     "IsUsed": true,
                     "Role": "UNDEFINED",
                     "PeerPortId": ""
                   },
-                  "db81cea2-ce5b-40ce-a402-f33d6f5832ad": {
+                  "guid_db81cea2-ce5b-40ce-a402-f33d6f5832ad": {
                     "IsUsed": true,
                     "Role": "UNDEFINED",
                     "PeerPortId": ""
                   },
-                  "2556d061-2172-43ca-89ed-d19b7fb412cc": {
+                  "guid_2556d061-2172-43ca-89ed-d19b7fb412cc": {
                     "IsUsed": true,
                     "Role": "UNDEFINED",
                     "PeerPortId": ""
                   },
-                  "1f5dc1d0-b175-43c9-9986-ae1e4a3ed756": {
+                  "guid_1f5dc1d0-b175-43c9-9986-ae1e4a3ed756": {
                     "IsUsed": true,
                     "Role": "UNDEFINED",
                     "PeerPortId": ""
                   },
-                  "fe309a0d-9abc-45ef-842e-f8434a9764ab": {
+                  "guid_fe309a0d-9abc-45ef-842e-f8434a9764ab": {
                     "IsUsed": true,
                     "Role": "UNDEFINED",
                     "PeerPortId": ""
                   },
-                  "151ed618-98c2-4474-b316-7d8feac0c2b8": {
+                  "guid_151ed618-98c2-4474-b316-7d8feac0c2b8": {
                     "IsUsed": true,
                     "Role": "UNDEFINED",
                     "PeerPortId": ""
                   },
-                  "ec46a011-d789-476a-a34b-d9312478b841": {
+                  "guid_ec46a011-d789-476a-a34b-d9312478b841": {
                     "IsUsed": true,
                     "Role": "UNDEFINED",
                     "PeerPortId": ""
                   },
-                  "1a839aae-a884-4fb3-8f2d-0ed75494580f": {
+                  "guid_1a839aae-a884-4fb3-8f2d-0ed75494580f": {
                     "IsUsed": true,
                     "Role": "UNDEFINED",
                     "PeerPortId": ""
                   },
-                  "db0456aa-deb9-4082-8830-65e99e4a419c": {
+                  "guid_db0456aa-deb9-4082-8830-65e99e4a419c": {
                     "IsUsed": true,
                     "Role": "UNDEFINED",
                     "PeerPortId": ""
                   },
-                  "9d622c2c-2bdd-4faf-a060-63467f33ff28": {
+                  "guid_9d622c2c-2bdd-4faf-a060-63467f33ff28": {
                     "IsUsed": true,
                     "Role": "UNDEFINED",
                     "PeerPortId": ""
                   },
-                  "eb539a59-1e61-42aa-9f89-3a63dc8a394c": {
+                  "guid_eb539a59-1e61-42aa-9f89-3a63dc8a394c": {
                     "IsUsed": true,
                     "Role": "UNDEFINED",
                     "PeerPortId": ""
                   },
-                  "2aff43d0-7b64-4310-bccc-c649716adbd4": {
+                  "guid_2aff43d0-7b64-4310-bccc-c649716adbd4": {
                     "IsUsed": true,
                     "Role": "UNDEFINED",
                     "PeerPortId": ""
                   },
-                  "4519e469-f4a7-4cd4-a9be-b4e2917baed2": {
+                  "guid_4519e469-f4a7-4cd4-a9be-b4e2917baed2": {
                     "IsUsed": true,
                     "Role": "UNDEFINED",
                     "PeerPortId": ""
                   },
-                  "6e9e6bd8-ba72-417b-86c4-18cc32d1dcbf": {
+                  "guid_6e9e6bd8-ba72-417b-86c4-18cc32d1dcbf": {
                     "IsUsed": true,
                     "Role": "UNDEFINED",
                     "PeerPortId": ""
                   },
-                  "e86c67e4-3d37-4ec1-8f3a-5a8abb5a5695": {
+                  "guid_e86c67e4-3d37-4ec1-8f3a-5a8abb5a5695": {
                     "IsUsed": true,
                     "Role": "UNDEFINED",
                     "PeerPortId": ""
@@ -1195,10 +1231,10 @@
               },
               "ThroughputTestEnabled": true,
               "RateIterationOptions": {
-                "InitialValue": 10.0,
-                "MinimumValue": 10.0,
+                "InitialValue": 1.0,
+                "MinimumValue": 0.01,
                 "MaximumValue": 100.0,
-                "ValueResolution": 10.0,
+                "ValueResolution": 0.01,
                 "UsePassThreshold": false,
                 "PassThreshold": 0.0
               },
@@ -1209,9 +1245,10 @@
                 "StepValue": 10.0
               },
               "TestType": "RateTest",
-              "Enabled": false,
+              "Enabled": true,
               "DurationType": "Seconds",
               "Duration": 30.0,
+              "DurationTimeUnit": "Seconds",
               "DurationFrames": 1,
               "DurationFrameUnit": "Mframes",
               "Iterations": 1,
@@ -1224,92 +1261,92 @@
               "Direction": "BIDIR",
               "PortRoleHandler": {
                 "RoleMap": {
-                  "804e3a65-ad71-4183-b1ec-1032f8e469b0": {
+                  "guid_804e3a65-ad71-4183-b1ec-1032f8e469b0": {
                     "IsUsed": true,
                     "Role": "EAST",
                     "PeerPortId": ""
                   },
-                  "7a09cb16-633f-4ae6-bca8-6ca66a92af2d": {
+                  "guid_7a09cb16-633f-4ae6-bca8-6ca66a92af2d": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "b64b43c5-804f-456a-aad2-a1617d180f03": {
+                  "guid_b64b43c5-804f-456a-aad2-a1617d180f03": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "caccfe8e-df43-4441-a4b8-c98215ef83f4": {
+                  "guid_caccfe8e-df43-4441-a4b8-c98215ef83f4": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "db81cea2-ce5b-40ce-a402-f33d6f5832ad": {
+                  "guid_db81cea2-ce5b-40ce-a402-f33d6f5832ad": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "2556d061-2172-43ca-89ed-d19b7fb412cc": {
+                  "guid_2556d061-2172-43ca-89ed-d19b7fb412cc": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "1f5dc1d0-b175-43c9-9986-ae1e4a3ed756": {
+                  "guid_1f5dc1d0-b175-43c9-9986-ae1e4a3ed756": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "fe309a0d-9abc-45ef-842e-f8434a9764ab": {
+                  "guid_fe309a0d-9abc-45ef-842e-f8434a9764ab": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "151ed618-98c2-4474-b316-7d8feac0c2b8": {
+                  "guid_151ed618-98c2-4474-b316-7d8feac0c2b8": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "ec46a011-d789-476a-a34b-d9312478b841": {
+                  "guid_ec46a011-d789-476a-a34b-d9312478b841": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "1a839aae-a884-4fb3-8f2d-0ed75494580f": {
+                  "guid_1a839aae-a884-4fb3-8f2d-0ed75494580f": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "db0456aa-deb9-4082-8830-65e99e4a419c": {
+                  "guid_db0456aa-deb9-4082-8830-65e99e4a419c": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "9d622c2c-2bdd-4faf-a060-63467f33ff28": {
+                  "guid_9d622c2c-2bdd-4faf-a060-63467f33ff28": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "eb539a59-1e61-42aa-9f89-3a63dc8a394c": {
+                  "guid_eb539a59-1e61-42aa-9f89-3a63dc8a394c": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "2aff43d0-7b64-4310-bccc-c649716adbd4": {
+                  "guid_2aff43d0-7b64-4310-bccc-c649716adbd4": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "4519e469-f4a7-4cd4-a9be-b4e2917baed2": {
+                  "guid_4519e469-f4a7-4cd4-a9be-b4e2917baed2": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "6e9e6bd8-ba72-417b-86c4-18cc32d1dcbf": {
+                  "guid_6e9e6bd8-ba72-417b-86c4-18cc32d1dcbf": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "e86c67e4-3d37-4ec1-8f3a-5a8abb5a5695": {
+                  "guid_e86c67e4-3d37-4ec1-8f3a-5a8abb5a5695": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
@@ -1335,6 +1372,7 @@
               "Enabled": false,
               "DurationType": "Seconds",
               "Duration": 30.0,
+              "DurationTimeUnit": "Seconds",
               "DurationFrames": 1,
               "DurationFrameUnit": "Mframes",
               "Iterations": 1,
@@ -1347,92 +1385,92 @@
               "Direction": "EAST_WEST",
               "PortRoleHandler": {
                 "RoleMap": {
-                  "804e3a65-ad71-4183-b1ec-1032f8e469b0": {
+                  "guid_804e3a65-ad71-4183-b1ec-1032f8e469b0": {
                     "IsUsed": true,
                     "Role": "EAST",
                     "PeerPortId": ""
                   },
-                  "7a09cb16-633f-4ae6-bca8-6ca66a92af2d": {
+                  "guid_7a09cb16-633f-4ae6-bca8-6ca66a92af2d": {
                     "IsUsed": true,
                     "Role": "EAST",
                     "PeerPortId": ""
                   },
-                  "b64b43c5-804f-456a-aad2-a1617d180f03": {
+                  "guid_b64b43c5-804f-456a-aad2-a1617d180f03": {
                     "IsUsed": true,
                     "Role": "EAST",
                     "PeerPortId": ""
                   },
-                  "caccfe8e-df43-4441-a4b8-c98215ef83f4": {
+                  "guid_caccfe8e-df43-4441-a4b8-c98215ef83f4": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "db81cea2-ce5b-40ce-a402-f33d6f5832ad": {
+                  "guid_db81cea2-ce5b-40ce-a402-f33d6f5832ad": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "2556d061-2172-43ca-89ed-d19b7fb412cc": {
+                  "guid_2556d061-2172-43ca-89ed-d19b7fb412cc": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "1f5dc1d0-b175-43c9-9986-ae1e4a3ed756": {
+                  "guid_1f5dc1d0-b175-43c9-9986-ae1e4a3ed756": {
                     "IsUsed": true,
                     "Role": "EAST",
                     "PeerPortId": ""
                   },
-                  "fe309a0d-9abc-45ef-842e-f8434a9764ab": {
+                  "guid_fe309a0d-9abc-45ef-842e-f8434a9764ab": {
                     "IsUsed": true,
                     "Role": "EAST",
                     "PeerPortId": ""
                   },
-                  "151ed618-98c2-4474-b316-7d8feac0c2b8": {
+                  "guid_151ed618-98c2-4474-b316-7d8feac0c2b8": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "ec46a011-d789-476a-a34b-d9312478b841": {
+                  "guid_ec46a011-d789-476a-a34b-d9312478b841": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "1a839aae-a884-4fb3-8f2d-0ed75494580f": {
+                  "guid_1a839aae-a884-4fb3-8f2d-0ed75494580f": {
                     "IsUsed": true,
                     "Role": "EAST",
                     "PeerPortId": ""
                   },
-                  "db0456aa-deb9-4082-8830-65e99e4a419c": {
+                  "guid_db0456aa-deb9-4082-8830-65e99e4a419c": {
                     "IsUsed": true,
                     "Role": "EAST",
                     "PeerPortId": ""
                   },
-                  "9d622c2c-2bdd-4faf-a060-63467f33ff28": {
+                  "guid_9d622c2c-2bdd-4faf-a060-63467f33ff28": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "eb539a59-1e61-42aa-9f89-3a63dc8a394c": {
+                  "guid_eb539a59-1e61-42aa-9f89-3a63dc8a394c": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "2aff43d0-7b64-4310-bccc-c649716adbd4": {
+                  "guid_2aff43d0-7b64-4310-bccc-c649716adbd4": {
                     "IsUsed": true,
                     "Role": "EAST",
                     "PeerPortId": ""
                   },
-                  "4519e469-f4a7-4cd4-a9be-b4e2917baed2": {
+                  "guid_4519e469-f4a7-4cd4-a9be-b4e2917baed2": {
                     "IsUsed": true,
                     "Role": "EAST",
                     "PeerPortId": ""
                   },
-                  "6e9e6bd8-ba72-417b-86c4-18cc32d1dcbf": {
+                  "guid_6e9e6bd8-ba72-417b-86c4-18cc32d1dcbf": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
                   },
-                  "e86c67e4-3d37-4ec1-8f3a-5a8abb5a5695": {
+                  "guid_e86c67e4-3d37-4ec1-8f3a-5a8abb5a5695": {
                     "IsUsed": true,
                     "Role": "WEST",
                     "PeerPortId": ""
@@ -1458,6 +1496,7 @@
               "Enabled": false,
               "DurationType": "Seconds",
               "Duration": 30.0,
+              "DurationTimeUnit": "Seconds",
               "DurationFrames": 1,
               "DurationFrameUnit": "Mframes",
               "Iterations": 1,
@@ -1471,6 +1510,7 @@
         "Enabled": true,
         "DurationType": "Seconds",
         "Duration": 30.0,
+        "DurationTimeUnit": "Seconds",
         "DurationFrames": 1,
         "DurationFrameUnit": "Mframes",
         "Iterations": 1,
@@ -1482,87 +1522,93 @@
         "$type": "XenaCommon.TestConfig.Rfc2889.TestTypeOptions.CongestionControlTestOptions, Xena2889",
         "PortRoleHandler": {
           "RoleMap": {
-            "804e3a65-ad71-4183-b1ec-1032f8e469b0": {
+            "guid_804e3a65-ad71-4183-b1ec-1032f8e469b0": {
               "IsUsed": true,
               "Role": "Source",
               "PeerPortId": ""
             },
-            "7a09cb16-633f-4ae6-bca8-6ca66a92af2d": {
+            "guid_7a09cb16-633f-4ae6-bca8-6ca66a92af2d": {
               "IsUsed": true,
               "Role": "Source",
               "PeerPortId": ""
             },
-            "b64b43c5-804f-456a-aad2-a1617d180f03": {
+            "guid_b64b43c5-804f-456a-aad2-a1617d180f03": {
               "IsUsed": false,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "caccfe8e-df43-4441-a4b8-c98215ef83f4": {
+            "guid_caccfe8e-df43-4441-a4b8-c98215ef83f4": {
               "IsUsed": false,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "db81cea2-ce5b-40ce-a402-f33d6f5832ad": {
+            "guid_db81cea2-ce5b-40ce-a402-f33d6f5832ad": {
               "IsUsed": false,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "1f5dc1d0-b175-43c9-9986-ae1e4a3ed756": {
+            "guid_1f5dc1d0-b175-43c9-9986-ae1e4a3ed756": {
               "IsUsed": false,
               "Role": "Source",
               "PeerPortId": ""
             },
-            "1a839aae-a884-4fb3-8f2d-0ed75494580f": {
+            "guid_1a839aae-a884-4fb3-8f2d-0ed75494580f": {
               "IsUsed": false,
               "Role": "Source",
               "PeerPortId": ""
             },
-            "2aff43d0-7b64-4310-bccc-c649716adbd4": {
+            "guid_2aff43d0-7b64-4310-bccc-c649716adbd4": {
               "IsUsed": false,
               "Role": "Source",
               "PeerPortId": ""
             },
-            "fe309a0d-9abc-45ef-842e-f8434a9764ab": {
+            "guid_fe309a0d-9abc-45ef-842e-f8434a9764ab": {
               "IsUsed": false,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "151ed618-98c2-4474-b316-7d8feac0c2b8": {
+            "guid_151ed618-98c2-4474-b316-7d8feac0c2b8": {
               "IsUsed": false,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "db0456aa-deb9-4082-8830-65e99e4a419c": {
+            "guid_db0456aa-deb9-4082-8830-65e99e4a419c": {
               "IsUsed": false,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "9d622c2c-2bdd-4faf-a060-63467f33ff28": {
+            "guid_9d622c2c-2bdd-4faf-a060-63467f33ff28": {
               "IsUsed": false,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "4519e469-f4a7-4cd4-a9be-b4e2917baed2": {
+            "guid_4519e469-f4a7-4cd4-a9be-b4e2917baed2": {
+              "IsUsed": false,
+              "Role": "Destination",
+              "PeerPortId": ""
+            },
+            "guid_6e9e6bd8-ba72-417b-86c4-18cc32d1dcbf": {
               "IsUsed": true,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "6e9e6bd8-ba72-417b-86c4-18cc32d1dcbf": {
-              "IsUsed": true,
+            "guid_eb539a59-1e61-42aa-9f89-3a63dc8a394c": {
+              "IsUsed": false,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "eb539a59-1e61-42aa-9f89-3a63dc8a394c": {
-              "IsUsed": false,
+            "guid_e86c67e4-3d37-4ec1-8f3a-5a8abb5a5695": {
+              "IsUsed": true,
               "Role": "Destination",
               "PeerPortId": ""
             }
           }
         },
         "TestType": "CongestionControl",
-        "Enabled": false,
+        "Enabled": true,
         "DurationType": "Seconds",
         "Duration": 30.0,
+        "DurationTimeUnit": "Seconds",
         "DurationFrames": 1,
         "DurationFrameUnit": "Mframes",
         "Iterations": 1,
@@ -1576,22 +1622,22 @@
         "AcceptableRxMaxUtilDelta": 0.001,
         "PortRoleHandler": {
           "RoleMap": {
-            "804e3a65-ad71-4183-b1ec-1032f8e469b0": {
+            "guid_804e3a65-ad71-4183-b1ec-1032f8e469b0": {
               "IsUsed": true,
               "Role": "Source",
               "PeerPortId": ""
             },
-            "7a09cb16-633f-4ae6-bca8-6ca66a92af2d": {
+            "guid_7a09cb16-633f-4ae6-bca8-6ca66a92af2d": {
               "IsUsed": false,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "b64b43c5-804f-456a-aad2-a1617d180f03": {
+            "guid_b64b43c5-804f-456a-aad2-a1617d180f03": {
               "IsUsed": false,
               "Role": "Source",
               "PeerPortId": ""
             },
-            "e86c67e4-3d37-4ec1-8f3a-5a8abb5a5695": {
+            "guid_e86c67e4-3d37-4ec1-8f3a-5a8abb5a5695": {
               "IsUsed": true,
               "Role": "Destination",
               "PeerPortId": ""
@@ -1599,9 +1645,10 @@
           }
         },
         "TestType": "ForwardPressure",
-        "Enabled": false,
+        "Enabled": true,
         "DurationType": "Seconds",
         "Duration": 30.0,
+        "DurationTimeUnit": "Seconds",
         "DurationFrames": 1,
         "DurationFrameUnit": "Mframes",
         "Iterations": 1,
@@ -1614,22 +1661,22 @@
         "UseThroughputAsStartValue": true,
         "PortRoleHandler": {
           "RoleMap": {
-            "804e3a65-ad71-4183-b1ec-1032f8e469b0": {
+            "guid_804e3a65-ad71-4183-b1ec-1032f8e469b0": {
               "IsUsed": true,
               "Role": "Source",
               "PeerPortId": ""
             },
-            "7a09cb16-633f-4ae6-bca8-6ca66a92af2d": {
+            "guid_7a09cb16-633f-4ae6-bca8-6ca66a92af2d": {
               "IsUsed": false,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "b64b43c5-804f-456a-aad2-a1617d180f03": {
+            "guid_b64b43c5-804f-456a-aad2-a1617d180f03": {
               "IsUsed": false,
               "Role": "Source",
               "PeerPortId": ""
             },
-            "e86c67e4-3d37-4ec1-8f3a-5a8abb5a5695": {
+            "guid_e86c67e4-3d37-4ec1-8f3a-5a8abb5a5695": {
               "IsUsed": true,
               "Role": "Destination",
               "PeerPortId": ""
@@ -1654,12 +1701,13 @@
           "StepValue": 10.0
         },
         "TestType": "MaxForwardingRate",
-        "Enabled": false,
+        "Enabled": true,
         "DurationType": "Seconds",
         "Duration": 30.0,
+        "DurationTimeUnit": "Seconds",
         "DurationFrames": 1,
         "DurationFrameUnit": "Mframes",
-        "Iterations": 2,
+        "Iterations": 1,
         "ItemID": "5e2d0317-5127-463a-82d0-36645f49bfd5",
         "ParentID": "",
         "Label": ""
@@ -1667,9 +1715,9 @@
       "AddressCachingCapacity": {
         "$type": "XenaCommon.TestConfig.Rfc2889.TestTypeOptions.AddressCachingTestOptions, Xena2889",
         "AddressIterationOptions": {
-          "InitialValue": 4096.0,
+          "InitialValue": 100.0,
           "MinimumValue": 100.0,
-          "MaximumValue": 65535.0,
+          "MaximumValue": 2048.0,
           "ValueResolution": 100.0,
           "UsePassThreshold": false,
           "PassThreshold": 0.0
@@ -1682,49 +1730,53 @@
         "LearnMacBaseAddress": "2,244,188",
         "TestPortMacMode": "UsePortNativeMac",
         "LearningPortDMacMode": "UseTestPortMac",
-        "LearningRateFps": 1000.0,
-        "ToggleSyncState": true,
+        "LearningSequencePortDMacMode": "UseIncrementingMacAddresses",
+        "LearningRateFps": 20.0,
+        "ToggleSyncState": false,
         "SyncOffDuration": 1,
+        "SyncOnDuration": 0,
         "SwitchTestPortRoles": false,
-        "DutAgingTime": 300,
+        "DutAgingTime": 310,
         "PortRoleHandler": {
           "RoleMap": {
-            "804e3a65-ad71-4183-b1ec-1032f8e469b0": {
+            "guid_804e3a65-ad71-4183-b1ec-1032f8e469b0": {
               "IsUsed": true,
               "Role": "TestPort",
               "PeerPortId": ""
             },
-            "7a09cb16-633f-4ae6-bca8-6ca66a92af2d": {
+            "guid_7a09cb16-633f-4ae6-bca8-6ca66a92af2d": {
               "IsUsed": false,
               "Role": "LearningPort",
               "PeerPortId": ""
             },
-            "b64b43c5-804f-456a-aad2-a1617d180f03": {
+            "guid_b64b43c5-804f-456a-aad2-a1617d180f03": {
               "IsUsed": false,
               "Role": "MonitoringPort",
               "PeerPortId": ""
             },
-            "6e9e6bd8-ba72-417b-86c4-18cc32d1dcbf": {
-              "IsUsed": false,
+            "guid_6e9e6bd8-ba72-417b-86c4-18cc32d1dcbf": {
+              "IsUsed": true,
               "Role": "LearningPort",
               "PeerPortId": ""
             },
-            "e86c67e4-3d37-4ec1-8f3a-5a8abb5a5695": {
+            "guid_e86c67e4-3d37-4ec1-8f3a-5a8abb5a5695": {
               "IsUsed": true,
               "Role": "MonitoringPort",
               "PeerPortId": ""
             },
-            "eb539a59-1e61-42aa-9f89-3a63dc8a394c": {
-              "IsUsed": true,
+            "guid_eb539a59-1e61-42aa-9f89-3a63dc8a394c": {
+              "IsUsed": false,
               "Role": "LearningPort",
               "PeerPortId": ""
             }
           }
         },
+        "FastRunResolutionEnabled": false,
         "TestType": "AddressCachingCapacity",
         "Enabled": true,
         "DurationType": "Seconds",
         "Duration": 30.0,
+        "DurationTimeUnit": "Seconds",
         "DurationFrames": 1,
         "DurationFrameUnit": "Mframes",
         "Iterations": 1,
@@ -1735,66 +1787,70 @@
       "AddressLearningRate": {
         "$type": "XenaCommon.TestConfig.Rfc2889.TestTypeOptions.AddressLearningTestOptions, Xena2889",
         "RateIterationOptions": {
-          "InitialValue": 100.0,
-          "MinimumValue": 10.0,
+          "InitialValue": 20.0,
+          "MinimumValue": 20.0,
           "MaximumValue": 100.0,
-          "ValueResolution": 10.0,
+          "ValueResolution": 20.0,
           "UsePassThreshold": false,
           "PassThreshold": 0.0
         },
         "AddressSweepOptions": {
-          "StartValue": 13107.0,
-          "EndValue": 65535.0,
-          "StepValue": 13107.0
+          "StartValue": 100.0,
+          "EndValue": 2048.0,
+          "StepValue": 200.0
         },
         "OnlyUseCapacity": false,
         "SetEndAddressToCapacity": true,
         "LearnMacBaseAddress": "2,244,188",
         "TestPortMacMode": "UsePortNativeMac",
         "LearningPortDMacMode": "UseTestPortMac",
-        "LearningRateFps": 1000.0,
-        "ToggleSyncState": true,
+        "LearningSequencePortDMacMode": "UseIncrementingMacAddresses",
+        "LearningRateFps": 20.0,
+        "ToggleSyncState": false,
         "SyncOffDuration": 1,
+        "SyncOnDuration": 0,
         "SwitchTestPortRoles": false,
-        "DutAgingTime": 300,
+        "DutAgingTime": 310,
         "PortRoleHandler": {
           "RoleMap": {
-            "804e3a65-ad71-4183-b1ec-1032f8e469b0": {
+            "guid_804e3a65-ad71-4183-b1ec-1032f8e469b0": {
               "IsUsed": true,
               "Role": "TestPort",
               "PeerPortId": ""
             },
-            "7a09cb16-633f-4ae6-bca8-6ca66a92af2d": {
+            "guid_7a09cb16-633f-4ae6-bca8-6ca66a92af2d": {
               "IsUsed": false,
               "Role": "LearningPort",
               "PeerPortId": ""
             },
-            "b64b43c5-804f-456a-aad2-a1617d180f03": {
+            "guid_b64b43c5-804f-456a-aad2-a1617d180f03": {
               "IsUsed": false,
               "Role": "MonitoringPort",
               "PeerPortId": ""
             },
-            "6e9e6bd8-ba72-417b-86c4-18cc32d1dcbf": {
+            "guid_6e9e6bd8-ba72-417b-86c4-18cc32d1dcbf": {
               "IsUsed": false,
               "Role": "LearningPort",
               "PeerPortId": ""
             },
-            "e86c67e4-3d37-4ec1-8f3a-5a8abb5a5695": {
+            "guid_e86c67e4-3d37-4ec1-8f3a-5a8abb5a5695": {
               "IsUsed": true,
               "Role": "MonitoringPort",
               "PeerPortId": ""
             },
-            "eb539a59-1e61-42aa-9f89-3a63dc8a394c": {
+            "guid_eb539a59-1e61-42aa-9f89-3a63dc8a394c": {
               "IsUsed": true,
               "Role": "LearningPort",
               "PeerPortId": ""
             }
           }
         },
+        "FastRunResolutionEnabled": false,
         "TestType": "AddressLearningRate",
-        "Enabled": false,
+        "Enabled": true,
         "DurationType": "Seconds",
         "Duration": 30.0,
+        "DurationTimeUnit": "Seconds",
         "DurationFrames": 1,
         "DurationFrameUnit": "Mframes",
         "Iterations": 1,
@@ -1816,17 +1872,17 @@
         },
         "PortRoleHandler": {
           "RoleMap": {
-            "804e3a65-ad71-4183-b1ec-1032f8e469b0": {
+            "guid_804e3a65-ad71-4183-b1ec-1032f8e469b0": {
               "IsUsed": true,
               "Role": "Source",
               "PeerPortId": ""
             },
-            "7a09cb16-633f-4ae6-bca8-6ca66a92af2d": {
+            "guid_7a09cb16-633f-4ae6-bca8-6ca66a92af2d": {
               "IsUsed": false,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "e86c67e4-3d37-4ec1-8f3a-5a8abb5a5695": {
+            "guid_e86c67e4-3d37-4ec1-8f3a-5a8abb5a5695": {
               "IsUsed": true,
               "Role": "Destination",
               "PeerPortId": ""
@@ -1834,9 +1890,10 @@
           }
         },
         "TestType": "ErroredFramesFiltering",
-        "Enabled": false,
+        "Enabled": true,
         "DurationType": "Seconds",
         "Duration": 30.0,
+        "DurationTimeUnit": "Seconds",
         "DurationFrames": 1,
         "DurationFrameUnit": "Mframes",
         "Iterations": 1,
@@ -1856,92 +1913,92 @@
         },
         "PortRoleHandler": {
           "RoleMap": {
-            "804e3a65-ad71-4183-b1ec-1032f8e469b0": {
+            "guid_804e3a65-ad71-4183-b1ec-1032f8e469b0": {
               "IsUsed": true,
               "Role": "Source",
               "PeerPortId": ""
             },
-            "7a09cb16-633f-4ae6-bca8-6ca66a92af2d": {
+            "guid_7a09cb16-633f-4ae6-bca8-6ca66a92af2d": {
               "IsUsed": true,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "b64b43c5-804f-456a-aad2-a1617d180f03": {
+            "guid_b64b43c5-804f-456a-aad2-a1617d180f03": {
               "IsUsed": true,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "caccfe8e-df43-4441-a4b8-c98215ef83f4": {
+            "guid_caccfe8e-df43-4441-a4b8-c98215ef83f4": {
               "IsUsed": true,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "db81cea2-ce5b-40ce-a402-f33d6f5832ad": {
+            "guid_db81cea2-ce5b-40ce-a402-f33d6f5832ad": {
               "IsUsed": true,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "2556d061-2172-43ca-89ed-d19b7fb412cc": {
+            "guid_2556d061-2172-43ca-89ed-d19b7fb412cc": {
               "IsUsed": true,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "1f5dc1d0-b175-43c9-9986-ae1e4a3ed756": {
+            "guid_1f5dc1d0-b175-43c9-9986-ae1e4a3ed756": {
               "IsUsed": true,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "fe309a0d-9abc-45ef-842e-f8434a9764ab": {
+            "guid_fe309a0d-9abc-45ef-842e-f8434a9764ab": {
               "IsUsed": true,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "151ed618-98c2-4474-b316-7d8feac0c2b8": {
+            "guid_151ed618-98c2-4474-b316-7d8feac0c2b8": {
               "IsUsed": true,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "ec46a011-d789-476a-a34b-d9312478b841": {
+            "guid_ec46a011-d789-476a-a34b-d9312478b841": {
               "IsUsed": true,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "1a839aae-a884-4fb3-8f2d-0ed75494580f": {
+            "guid_1a839aae-a884-4fb3-8f2d-0ed75494580f": {
               "IsUsed": true,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "db0456aa-deb9-4082-8830-65e99e4a419c": {
+            "guid_db0456aa-deb9-4082-8830-65e99e4a419c": {
               "IsUsed": true,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "9d622c2c-2bdd-4faf-a060-63467f33ff28": {
+            "guid_9d622c2c-2bdd-4faf-a060-63467f33ff28": {
               "IsUsed": true,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "eb539a59-1e61-42aa-9f89-3a63dc8a394c": {
+            "guid_eb539a59-1e61-42aa-9f89-3a63dc8a394c": {
               "IsUsed": true,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "2aff43d0-7b64-4310-bccc-c649716adbd4": {
+            "guid_2aff43d0-7b64-4310-bccc-c649716adbd4": {
               "IsUsed": true,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "4519e469-f4a7-4cd4-a9be-b4e2917baed2": {
+            "guid_4519e469-f4a7-4cd4-a9be-b4e2917baed2": {
               "IsUsed": true,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "6e9e6bd8-ba72-417b-86c4-18cc32d1dcbf": {
+            "guid_6e9e6bd8-ba72-417b-86c4-18cc32d1dcbf": {
               "IsUsed": true,
               "Role": "Destination",
               "PeerPortId": ""
             },
-            "e86c67e4-3d37-4ec1-8f3a-5a8abb5a5695": {
+            "guid_e86c67e4-3d37-4ec1-8f3a-5a8abb5a5695": {
               "IsUsed": true,
               "Role": "Destination",
               "PeerPortId": ""
@@ -1949,9 +2006,10 @@
           }
         },
         "TestType": "BroadcastForwarding",
-        "Enabled": false,
+        "Enabled": true,
         "DurationType": "Seconds",
         "Duration": 30.0,
+        "DurationTimeUnit": "Seconds",
         "DurationFrames": 1,
         "DurationFrameUnit": "Mframes",
         "Iterations": 1,
@@ -1970,7 +2028,10 @@
       "SwPacketStepSize": 100,
       "HwPacketMinSize": 64,
       "HwPacketMaxSize": 1500,
-      "MixedSizesWeights": []
+      "MixedSizesWeights": [],
+      "MixedLengthConfig": {
+        "FrameSizes": {}
+      }
     },
     "RateDefinition": {
       "RateType": "Fraction",
@@ -1998,6 +2059,10 @@
     "LatencyMode": "Last_To_Last",
     "ToggleSyncState": true,
     "SyncOffDuration": 1,
+    "SyncOnDuration": 1,
+    "ShouldStopOnLos": true,
+    "PortResetDelay": 1,
+    "PortReset": true,
     "UsePortSyncStart": false,
     "PortStaggerSteps": 0
   },
@@ -2021,21 +2086,25 @@
     "CustomerName": "Xena Networks",
     "CustomerServiceID": "",
     "CustomerAccessID": "",
-    "Comments": "",
+    "Comments": "Components:\r\n- host: aconbg027 (Windows 10 Enterprise LTSC)\r\n- chassis: XenaBay (140.181.139.228)\r\n- configuration: github.com/GSI-CS-CO/network_testing/wr_RFC_2889/xena_cfg/RFC_2889_4_switches_Xena.x2889\r\n\r\nDUT:\r\n- WRS: scb v3.4, Creotech\r\n- name: nwt0010/16/296/297\r\n- fw: v7.0\r\n- dot-config: default",
     "RateUnitTerminology": "FPS",
     "IncludeTestPairInfo": true,
     "IncludePerStreamInfo": false,
+    "IncludeModuleInfo": false,
     "IncludeGraphs": true,
     "PlotThroughputUnit": "Pps",
+    "PassDisplayType": "Pass",
     "GeneratePdf": true,
     "GenerateHtml": false,
     "GenerateXml": false,
     "GenerateCsv": false,
     "SaveIntermediateResults": false,
+    "AddPreciseTimestampForEachLine": false,
+    "IntermediateResultsUseReportNamePrefix": false,
     "ReportFilename": "xena2889-report",
     "AppendTimestamp": true
   },
   "TidAllocationScope": "ConfigScope",
   "FormatVersion": 1,
-  "ApplicationVersion": "1.17.5830.22927"
+  "ApplicationVersion": "1.46.8938.25274"
 }
