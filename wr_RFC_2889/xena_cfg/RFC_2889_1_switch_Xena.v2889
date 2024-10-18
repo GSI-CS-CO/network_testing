@@ -1213,10 +1213,10 @@
               },
               "ThroughputTestEnabled": true,
               "RateIterationOptions": {
-                "InitialValue": 10.0,
-                "MinimumValue": 10.0,
+                "InitialValue": 1.0,
+                "MinimumValue": 0.01,
                 "MaximumValue": 100.0,
-                "ValueResolution": 0.5,
+                "ValueResolution": 0.01,
                 "UsePassThreshold": false,
                 "PassThreshold": 0.0
               },
@@ -1337,10 +1337,10 @@
               },
               "ThroughputTestEnabled": true,
               "RateIterationOptions": {
-                "InitialValue": 10.0,
-                "MinimumValue": 10.0,
+                "InitialValue": 1.0,
+                "MinimumValue": 0.01,
                 "MaximumValue": 100.0,
-                "ValueResolution": 10.0,
+                "ValueResolution": 0.01,
                 "UsePassThreshold": false,
                 "PassThreshold": 0.0
               },
@@ -1461,10 +1461,10 @@
               },
               "ThroughputTestEnabled": true,
               "RateIterationOptions": {
-                "InitialValue": 10.0,
-                "MinimumValue": 10.0,
+                "InitialValue": 1.0,
+                "MinimumValue": 0.01,
                 "MaximumValue": 100.0,
-                "ValueResolution": 10.0,
+                "ValueResolution": 0.01,
                 "UsePassThreshold": false,
                 "PassThreshold": 0.0
               },
@@ -1637,9 +1637,9 @@
       "AddressCachingCapacity": {
         "$type": "XenaCommon.TestConfig.Rfc2889.TestTypeOptions.AddressCachingTestOptions, Valkyrie2889",
         "AddressIterationOptions": {
-          "InitialValue": 4096.0,
+          "InitialValue": 100.0,
           "MinimumValue": 100.0,
-          "MaximumValue": 65535.0,
+          "MaximumValue": 2048.0,
           "ValueResolution": 100.0,
           "UsePassThreshold": false,
           "PassThreshold": 0.0
@@ -1653,42 +1653,77 @@
         "TestPortMacMode": "UsePortNativeMac",
         "LearningPortDMacMode": "UseTestPortMac",
         "LearningSequencePortDMacMode": "UseIncrementingMacAddresses",
-        "LearningRateFps": 1000.0,
-        "ToggleSyncState": true,
+        "LearningRateFps": 20.0,
+        "ToggleSyncState": false,
         "SyncOffDuration": 1,
         "SyncOnDuration": 0,
-        "SwitchTestPortRoles": false,
-        "DutAgingTime": 300,
+        "SwitchTestPortRoles": true,
+        "DutAgingTime": 350,
         "PortRoleHandler": {
           "RoleMap": {
             "guid_769b2ffe-04be-4dee-9de2-08d4c8b8cc91": {
-              "IsUsed": true,
+              "IsUsed": false,
               "Role": "TestPort",
               "PeerPortId": ""
             },
             "guid_335103e1-8070-44b5-adc4-f2f358250086": {
               "IsUsed": false,
-              "Role": "LearningPort",
+              "Role": "TestPort",
               "PeerPortId": ""
             },
             "guid_f1232de1-d9b3-432d-96b4-37e664f50db8": {
               "IsUsed": false,
-              "Role": "MonitoringPort",
+              "Role": "TestPort",
               "PeerPortId": ""
             },
             "guid_981a312b-5ff2-4371-939a-42d51bd0a276": {
-              "IsUsed": true,
+              "IsUsed": false,
               "Role": "LearningPort",
               "PeerPortId": ""
             },
             "guid_e815e634-2e9f-4619-9a7b-4cdb416d3f02": {
+              "IsUsed": false,
+              "Role": "MonitoringPort",
+              "PeerPortId": ""
+            },
+            "guid_e422a8bd-8539-45f3-a817-dce53163d914": {
+              "IsUsed": false,
+              "Role": "TestPort",
+              "PeerPortId": ""
+            },
+            "guid_af91268c-0e8f-41db-a730-7c3559c28e4c": {
+              "IsUsed": false,
+              "Role": "TestPort",
+              "PeerPortId": ""
+            },
+            "guid_9ba3402a-a1cc-43a8-927d-9770c1128986": {
+              "IsUsed": false,
+              "Role": "TestPort",
+              "PeerPortId": ""
+            },
+            "guid_b1f8b2dc-3cc7-4d2d-b0ac-6cca31028a41": {
+              "IsUsed": false,
+              "Role": "TestPort",
+              "PeerPortId": ""
+            },
+            "guid_1333901f-0e89-4fe5-9d98-b5fad53a7d9f": {
+              "IsUsed": true,
+              "Role": "TestPort",
+              "PeerPortId": ""
+            },
+            "guid_4b7e4d3a-60b7-404d-be6c-c83c9c0b93e9": {
+              "IsUsed": true,
+              "Role": "LearningPort",
+              "PeerPortId": ""
+            },
+            "guid_bce34fee-dc89-431a-a907-efe98d54ef7e": {
               "IsUsed": true,
               "Role": "MonitoringPort",
               "PeerPortId": ""
             }
           }
         },
-        "FastRunResolutionEnabled": false,
+        "FastRunResolutionEnabled": true,
         "TestType": "AddressCachingCapacity",
         "Enabled": true,
         "DurationType": "Seconds",
@@ -1704,17 +1739,17 @@
       "AddressLearningRate": {
         "$type": "XenaCommon.TestConfig.Rfc2889.TestTypeOptions.AddressLearningTestOptions, Valkyrie2889",
         "RateIterationOptions": {
-          "InitialValue": 10.0,
-          "MinimumValue": 10.0,
+          "InitialValue": 20.0,
+          "MinimumValue": 20.0,
           "MaximumValue": 100.0,
-          "ValueResolution": 10.0,
+          "ValueResolution": 20.0,
           "UsePassThreshold": false,
           "PassThreshold": 0.0
         },
         "AddressSweepOptions": {
-          "StartValue": 13107.0,
-          "EndValue": 65535.0,
-          "StepValue": 13107.0
+          "StartValue": 100.0,
+          "EndValue": 2048.0,
+          "StepValue": 512.0
         },
         "OnlyUseCapacity": false,
         "SetEndAddressToCapacity": true,
@@ -1722,35 +1757,65 @@
         "TestPortMacMode": "UsePortNativeMac",
         "LearningPortDMacMode": "UseTestPortMac",
         "LearningSequencePortDMacMode": "UseIncrementingMacAddresses",
-        "LearningRateFps": 1000.0,
-        "ToggleSyncState": true,
+        "LearningRateFps": 100.0,
+        "ToggleSyncState": false,
         "SyncOffDuration": 1,
         "SyncOnDuration": 0,
-        "SwitchTestPortRoles": false,
-        "DutAgingTime": 300,
+        "SwitchTestPortRoles": true,
+        "DutAgingTime": 330,
         "PortRoleHandler": {
           "RoleMap": {
             "guid_769b2ffe-04be-4dee-9de2-08d4c8b8cc91": {
-              "IsUsed": true,
+              "IsUsed": false,
               "Role": "TestPort",
               "PeerPortId": ""
             },
             "guid_335103e1-8070-44b5-adc4-f2f358250086": {
               "IsUsed": false,
-              "Role": "LearningPort",
+              "Role": "TestPort",
               "PeerPortId": ""
             },
             "guid_f1232de1-d9b3-432d-96b4-37e664f50db8": {
               "IsUsed": false,
-              "Role": "MonitoringPort",
+              "Role": "TestPort",
               "PeerPortId": ""
             },
             "guid_981a312b-5ff2-4371-939a-42d51bd0a276": {
-              "IsUsed": true,
+              "IsUsed": false,
               "Role": "LearningPort",
               "PeerPortId": ""
             },
             "guid_e815e634-2e9f-4619-9a7b-4cdb416d3f02": {
+              "IsUsed": false,
+              "Role": "MonitoringPort",
+              "PeerPortId": ""
+            },
+            "guid_e422a8bd-8539-45f3-a817-dce53163d914": {
+              "IsUsed": false,
+              "Role": "TestPort",
+              "PeerPortId": ""
+            },
+            "guid_af91268c-0e8f-41db-a730-7c3559c28e4c": {
+              "IsUsed": false,
+              "Role": "TestPort",
+              "PeerPortId": ""
+            },
+            "guid_9ba3402a-a1cc-43a8-927d-9770c1128986": {
+              "IsUsed": false,
+              "Role": "TestPort",
+              "PeerPortId": ""
+            },
+            "guid_1333901f-0e89-4fe5-9d98-b5fad53a7d9f": {
+              "IsUsed": true,
+              "Role": "TestPort",
+              "PeerPortId": ""
+            },
+            "guid_4b7e4d3a-60b7-404d-be6c-c83c9c0b93e9": {
+              "IsUsed": true,
+              "Role": "LearningPort",
+              "PeerPortId": ""
+            },
+            "guid_bce34fee-dc89-431a-a907-efe98d54ef7e": {
               "IsUsed": true,
               "Role": "MonitoringPort",
               "PeerPortId": ""
@@ -1997,7 +2062,7 @@
     "CustomerName": "GSI TOS",
     "CustomerServiceID": "",
     "CustomerAccessID": "",
-    "Comments": "Test with 1 WRS\r\n- software: Valkyrie2889 v1.40\r\n- chassis: Xenabay (140.181.139.228)\r\n- configuration: https://github.com/GSI-CS-CO/network_testing\r\n- WRS: backplane v3.30, scb v3.4, gw v6.0, fw WP3a-wrpc_fixes-7-ga8311e1, Creotech\r\n",
+    "Comments": "Partial test\r\n- host: acopc061 (VB guest Win81)\r\n- chassis: Xenabay (140.181.139.228)\r\n- configuration: https://github.com/GSI-CS-CO/network_testing\r\n\r\nDUT\r\n- WRS: backplane v3.30, scb v3.4, Creotech\r\n- name: nwt0297\r\n- fw: v6.1\r\n- dot-config: default",
     "RateUnitTerminology": "FPS",
     "IncludeTestPairInfo": true,
     "IncludePerStreamInfo": false,
