@@ -1,0 +1,673 @@
+{
+  "ChassisManager": {
+    "ChassisList": [
+      {
+        "ChassisName": "xenatos",
+        "Address": {
+          "HostName": "140.181.139.228",
+          "PortNumber": 22606,
+          "Password": "xena"
+        },
+        "ChassisIsDisconnected": false,
+        "FullInfo": "Chassis 0 'xenatos' (140.181.139.228)",
+        "ResourceIndex": 0,
+        "ItemId": "e418f993-2ddb-425e-a764-0d9e33ef2657",
+        "ParentId": ""
+      }
+    ]
+  },
+  "TestBedHandler": {
+    "SelectedTestBedId": "fdb75331-e630-4453-a16f-ee2411956af7",
+    "EntityList": [
+      {
+        "Description": "Traffic latency measurement in TTF\r\n- nwt0010 as localmaster\r\n- nwt0016/0296 as distribution\r\n- nwt0297 as access",
+        "UsedPorts": [
+          {
+            "ChassisId": "e418f993-2ddb-425e-a764-0d9e33ef2657",
+            "ModuleIndex": 0,
+            "PortIndex": 0
+          },
+          {
+            "ChassisId": "e418f993-2ddb-425e-a764-0d9e33ef2657",
+            "ModuleIndex": 4,
+            "PortIndex": 0
+          },
+          {
+            "ChassisId": "e418f993-2ddb-425e-a764-0d9e33ef2657",
+            "ModuleIndex": 2,
+            "PortIndex": 1
+          },
+          {
+            "ChassisId": "e418f993-2ddb-425e-a764-0d9e33ef2657",
+            "ModuleIndex": 0,
+            "PortIndex": 3
+          },
+          {
+            "ChassisId": "e418f993-2ddb-425e-a764-0d9e33ef2657",
+            "ModuleIndex": 2,
+            "PortIndex": 2
+          },
+          {
+            "ChassisId": "e418f993-2ddb-425e-a764-0d9e33ef2657",
+            "ModuleIndex": 0,
+            "PortIndex": 2
+          },
+          {
+            "ChassisId": "e418f993-2ddb-425e-a764-0d9e33ef2657",
+            "ModuleIndex": 2,
+            "PortIndex": 3
+          },
+          {
+            "ChassisId": "e418f993-2ddb-425e-a764-0d9e33ef2657",
+            "ModuleIndex": 2,
+            "PortIndex": 4
+          },
+          {
+            "ChassisId": "e418f993-2ddb-425e-a764-0d9e33ef2657",
+            "ModuleIndex": 2,
+            "PortIndex": 5
+          },
+          {
+            "ChassisId": "e418f993-2ddb-425e-a764-0d9e33ef2657",
+            "ModuleIndex": 0,
+            "PortIndex": 1
+          },
+          {
+            "ChassisId": "e418f993-2ddb-425e-a764-0d9e33ef2657",
+            "ModuleIndex": 0,
+            "PortIndex": 4
+          },
+          {
+            "ChassisId": "e418f993-2ddb-425e-a764-0d9e33ef2657",
+            "ModuleIndex": 0,
+            "PortIndex": 5
+          },
+          {
+            "ChassisId": "e418f993-2ddb-425e-a764-0d9e33ef2657",
+            "ModuleIndex": 4,
+            "PortIndex": 1
+          },
+          {
+            "ChassisId": "e418f993-2ddb-425e-a764-0d9e33ef2657",
+            "ModuleIndex": 4,
+            "PortIndex": 2
+          },
+          {
+            "ChassisId": "e418f993-2ddb-425e-a764-0d9e33ef2657",
+            "ModuleIndex": 4,
+            "PortIndex": 3
+          },
+          {
+            "ChassisId": "e418f993-2ddb-425e-a764-0d9e33ef2657",
+            "ModuleIndex": 4,
+            "PortIndex": 4
+          },
+          {
+            "ChassisId": "e418f993-2ddb-425e-a764-0d9e33ef2657",
+            "ModuleIndex": 4,
+            "PortIndex": 5
+          },
+          {
+            "ChassisId": "e418f993-2ddb-425e-a764-0d9e33ef2657",
+            "ModuleIndex": 2,
+            "PortIndex": 0
+          }
+        ],
+        "PollAwaysPorts": [],
+        "ZeroRateCheckPorts": [],
+        "TsnPorts": [],
+        "ShowOnlyUsedPorts": true,
+        "PortGridPropertySelector": {
+          "ShowReadOnlyProperties": true,
+          "DisabledGroups": [],
+          "DisabledProperties": []
+        },
+        "StreamGridPropertySelector": {
+          "ShowReadOnlyProperties": true,
+          "DisabledGroups": [],
+          "DisabledProperties": []
+        },
+        "UsePortTxTimeForDuration": false,
+        "LoggingDefinition": {
+          "EnableLogging": true,
+          "EnabledFields": {
+            "TxL1Bps": false,
+            "TxBps": true,
+            "TxBytesps": true,
+            "TxFps": true,
+            "TxBytes": false,
+            "TxFrames": true,
+            "RxL1Bps": false,
+            "RxBps": false,
+            "RxBytesps": true,
+            "RxFps": true,
+            "RxBytes": false,
+            "RxFrames": true,
+            "RxOversizePackets": true,
+            "RxUndersizePackets": true,
+            "RxJabberPackets": true,
+            "TxNonPldBytes": false,
+            "TxNonPldFrames": false,
+            "RxNonPldBytes": false,
+            "RxNonPldFrames": false,
+            "RxFcsErrors": false,
+            "RxSeqErr": false,
+            "RxPckLossRatio": false,
+            "RxMisErr": false,
+            "RxPldErr": false,
+            "RxBer": false,
+            "RxBerCurr": false,
+            "LatencyCurr": false,
+            "LatencyCurrMin": false,
+            "LatencyCurrMax": false,
+            "LatencyAvg": true,
+            "LatencyMin": true,
+            "LatencyMax": true,
+            "JitterCurr": false,
+            "JitterCurrMin": false,
+            "JitterCurrMax": false,
+            "JitterAvg": true,
+            "JitterMin": true,
+            "JitterMax": true,
+            "TxArpRequests": false,
+            "TxArpReplies": false,
+            "TxPingRequests": false,
+            "TxPingReplies": false,
+            "TxInjectedFcs": false,
+            "TxInjectedSeq": false,
+            "TxInjectedMis": false,
+            "TxInjectedIntegErr": false,
+            "TxInjectedTidErr": false,
+            "TxMacTraining": false,
+            "TxIgmpJoin": false,
+            "RxArpRequests": false,
+            "RxArpReplies": false,
+            "RxPingRequests": false,
+            "RxPingReplies": false,
+            "RxGapCount": false,
+            "RxGapDuration": false,
+            "RxPauseFrames": false,
+            "RxPfcFrames": false,
+            "RxPfcQuanta0": false,
+            "RxPfcQuanta1": false,
+            "RxPfcQuanta2": false,
+            "RxPfcQuanta3": false,
+            "RxPfcQuanta4": false,
+            "RxPfcQuanta5": false,
+            "RxPfcQuanta6": false,
+            "RxPfcQuanta7": false,
+            "ImpairmentTotalPacketDrop": false,
+            "ImpairmentTotalPacketDropRatio": false,
+            "ImpairmentProgrammedDrop": false,
+            "ImpairmentProgrammedDropRatio": false,
+            "ImpairmentBandwidthDrop": false,
+            "ImpairmentBandwidthDropRatio": false,
+            "ImpairmentOtherDrop": false,
+            "ImpairmentOtherDropRatio": false,
+            "ImpairmentMisordered": false,
+            "ImpairmentMisorderRatio": false,
+            "ImpairmentDuplication": false,
+            "ImpairmentDuplicationRatio": false,
+            "ImpairmentCorruption": false,
+            "ImpairmentCorruptionRatio": false,
+            "ImpairmentCorruptionFcs": false,
+            "ImpairmentCorruptionFcsRatio": false,
+            "ImpairmentCorruptionIp": false,
+            "ImpairmentCorruptionIpRatio": false,
+            "ImpairmentCorruptionUdp": false,
+            "ImpairmentCorruptionUdpRatio": false,
+            "ImpairmentCorruptionTcp": false,
+            "ImpairmentCorruptionTcpRatio": false,
+            "TsnOffsetPreServo": false,
+            "TsnOffsetPostServo": false,
+            "TsnRxSyncRateInterArrival": false,
+            "TsnPDelay": false,
+            "TsnNrr": false,
+            "RxLanePreFecErrorsCount": false,
+            "RxTotalUncorrectedRsFecBlocks": false,
+            "RxTotalCorrectedRsFecSymbols": false,
+            "RxPreFecBer": false,
+            "RxPostFecBer": false,
+            "RxFecCodewords": false,
+            "RxFecCodewordsRatio": false
+          },
+          "SourceResolution": "Streams",
+          "LatencyOORIndication": false,
+          "LogScheduleSettings": {
+            "PollInterval": "01:00:00",
+            "LoggingPeriod": "00:00:00",
+            "RunUntilStopped": true,
+            "UseGlobalTrafficStartStop": true
+          },
+          "LoggingTargets": [
+            "TextFile"
+          ],
+          "PluginHandlerSettings": {
+            "PluginId": "",
+            "PluginConfig": null
+          },
+          "CustomHandlerSettings": {
+            "ExecutablePath": "",
+            "Arguments": ""
+          },
+          "ReportSettings": {
+            "GenerateReport": false,
+            "ReportFileTypes": [
+              "PDF"
+            ],
+            "ReportTitle": "Latency Measurement Report",
+            "CompanyName": "GSI",
+            "TesterName": "Oc",
+            "TestDescription": "Traffic latency measurement with 4 WRS",
+            "LogoImagePath": "",
+            "PdfPageSettings": {
+              "ProduceOutline": true,
+              "PaperKind": "A4",
+              "Orientation": "Portrait",
+              "Margin": {
+                "Bottom": 2.0,
+                "Left": 2.0,
+                "Right": 2.0,
+                "Top": 2.0,
+                "Unit": "Centimeters"
+              }
+            },
+            "ChartSettings": {
+              "EnabledChartFields": {
+                "TxL1Bps": false,
+                "TxBps": false,
+                "TxBytesps": false,
+                "TxFps": false,
+                "TxBytes": false,
+                "TxFrames": false,
+                "RxL1Bps": false,
+                "RxBps": false,
+                "RxBytesps": false,
+                "RxFps": false,
+                "RxBytes": false,
+                "RxFrames": false,
+                "RxOversizePackets": false,
+                "RxUndersizePackets": false,
+                "RxJabberPackets": false,
+                "TxNonPldBytes": false,
+                "TxNonPldFrames": false,
+                "RxNonPldBytes": false,
+                "RxNonPldFrames": false,
+                "RxFcsErrors": false,
+                "RxSeqErr": false,
+                "RxPckLossRatio": false,
+                "RxMisErr": false,
+                "RxPldErr": false,
+                "RxBer": false,
+                "RxBerCurr": false,
+                "LatencyCurr": false,
+                "LatencyCurrMin": false,
+                "LatencyCurrMax": false,
+                "LatencyAvg": false,
+                "LatencyMin": false,
+                "LatencyMax": false,
+                "JitterCurr": false,
+                "JitterCurrMin": false,
+                "JitterCurrMax": false,
+                "JitterAvg": false,
+                "JitterMin": false,
+                "JitterMax": false,
+                "TxArpRequests": false,
+                "TxArpReplies": false,
+                "TxPingRequests": false,
+                "TxPingReplies": false,
+                "TxInjectedFcs": false,
+                "TxInjectedSeq": false,
+                "TxInjectedMis": false,
+                "TxInjectedIntegErr": false,
+                "TxInjectedTidErr": false,
+                "TxMacTraining": false,
+                "TxIgmpJoin": false,
+                "RxArpRequests": false,
+                "RxArpReplies": false,
+                "RxPingRequests": false,
+                "RxPingReplies": false,
+                "RxGapCount": false,
+                "RxGapDuration": false,
+                "RxPauseFrames": false,
+                "RxPfcFrames": false,
+                "RxPfcQuanta0": false,
+                "RxPfcQuanta1": false,
+                "RxPfcQuanta2": false,
+                "RxPfcQuanta3": false,
+                "RxPfcQuanta4": false,
+                "RxPfcQuanta5": false,
+                "RxPfcQuanta6": false,
+                "RxPfcQuanta7": false,
+                "ImpairmentTotalPacketDrop": false,
+                "ImpairmentTotalPacketDropRatio": false,
+                "ImpairmentProgrammedDrop": false,
+                "ImpairmentProgrammedDropRatio": false,
+                "ImpairmentBandwidthDrop": false,
+                "ImpairmentBandwidthDropRatio": false,
+                "ImpairmentOtherDrop": false,
+                "ImpairmentOtherDropRatio": false,
+                "ImpairmentMisordered": false,
+                "ImpairmentMisorderRatio": false,
+                "ImpairmentDuplication": false,
+                "ImpairmentDuplicationRatio": false,
+                "ImpairmentCorruption": false,
+                "ImpairmentCorruptionRatio": false,
+                "ImpairmentCorruptionFcs": false,
+                "ImpairmentCorruptionFcsRatio": false,
+                "ImpairmentCorruptionIp": false,
+                "ImpairmentCorruptionIpRatio": false,
+                "ImpairmentCorruptionUdp": false,
+                "ImpairmentCorruptionUdpRatio": false,
+                "ImpairmentCorruptionTcp": false,
+                "ImpairmentCorruptionTcpRatio": false,
+                "TsnOffsetPreServo": false,
+                "TsnOffsetPostServo": false,
+                "TsnRxSyncRateInterArrival": false,
+                "TsnPDelay": false,
+                "TsnNrr": false,
+                "RxLanePreFecErrorsCount": false,
+                "RxTotalUncorrectedRsFecBlocks": false,
+                "RxTotalCorrectedRsFecSymbols": false,
+                "RxPreFecBer": false,
+                "RxPostFecBer": false,
+                "RxFecCodewords": false,
+                "RxFecCodewordsRatio": false
+              },
+              "UseChartFieldsFromLogging": false,
+              "ChartWidth": 640,
+              "ChartHeight": 480,
+              "MaxChartItems": 1200
+            }
+          },
+          "FileSettings": {
+            "LogFileType": "CSV",
+            "LogFileNamePrefix": "latencystatslog",
+            "AppendTimestamp": true,
+            "SeparateRunDirs": true,
+            "UseRollOverFileSize": true,
+            "RollOverFileSize": 10000,
+            "UseMaxArchiveFiles": true,
+            "MaxArchiveFiles": 10,
+            "CompressArchiveFiles": true
+          },
+          "ItemId": "effed60b-caff-42b5-a7f5-ed73e8e049af",
+          "ParentId": "",
+          "FullInfo": ""
+        },
+        "StreamWizardDefinition": {
+          "TopologyHandler": {
+            "StreamTopology": "MESH",
+            "StreamDirection": "BIDIR",
+            "TidAllocationScope": "ConfigScope"
+          },
+          "PortHandler": {
+            "ResetPorts": true,
+            "PortConfigMap": {
+              "P_e418f993-2ddb-425e-a764-0d9e33ef2657_4_5": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,35",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "FullInfo": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "78bd3238-454b-4f88-ae47-aec4468b8c26",
+                "ParentId": ""
+              },
+              "P_e418f993-2ddb-425e-a764-0d9e33ef2657_0_5": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,35",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "FullInfo": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "50e510b0-ab00-4688-883f-0c388bbb0f37",
+                "ParentId": ""
+              },
+              "P_e418f993-2ddb-425e-a764-0d9e33ef2657_2_4": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,34",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "FullInfo": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "7fe73dfe-b57e-4756-9b34-7b6751e08018",
+                "ParentId": ""
+              },
+              "P_e418f993-2ddb-425e-a764-0d9e33ef2657_4_2": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,32",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "FullInfo": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "271b6963-f356-4412-942b-881d679d479b",
+                "ParentId": ""
+              },
+              "P_e418f993-2ddb-425e-a764-0d9e33ef2657_2_3": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,33",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "FullInfo": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "3baba272-ff8f-441a-8204-857fc49fba41",
+                "ParentId": ""
+              },
+              "P_e418f993-2ddb-425e-a764-0d9e33ef2657_4_3": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,33",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "FullInfo": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "550d0da8-4789-4441-b45b-3aa36f0590e8",
+                "ParentId": ""
+              },
+              "P_e418f993-2ddb-425e-a764-0d9e33ef2657_2_2": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,32",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "FullInfo": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "90503b6e-2617-4a13-9433-62c14d4b298f",
+                "ParentId": ""
+              },
+              "P_e418f993-2ddb-425e-a764-0d9e33ef2657_2_1": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,31",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "FullInfo": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "ff52b4c0-aa17-41b3-a1e9-1471d3512b5e",
+                "ParentId": ""
+              },
+              "P_e418f993-2ddb-425e-a764-0d9e33ef2657_2_0": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,30",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "FullInfo": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "b337a778-6441-4842-be2f-e9c031c94a4a",
+                "ParentId": ""
+              },
+              "P_e418f993-2ddb-425e-a764-0d9e33ef2657_4_4": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,34",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "FullInfo": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "0cab0a39-696d-4b87-bdf3-8b0b429e8656",
+                "ParentId": ""
+              },
+              "P_e418f993-2ddb-425e-a764-0d9e33ef2657_4_1": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,31",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "FullInfo": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "779248fa-783d-4b13-ba85-2414e95365ee",
+                "ParentId": ""
+              },
+              "P_e418f993-2ddb-425e-a764-0d9e33ef2657_4_0": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,30",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "FullInfo": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "43a81f96-4b68-4f67-95e8-78ee0cf5da19",
+                "ParentId": ""
+              },
+              "P_e418f993-2ddb-425e-a764-0d9e33ef2657_0_4": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,34",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "FullInfo": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "7b9a6516-44d1-4fa2-bd01-e634530d3ecb",
+                "ParentId": ""
+              },
+              "P_e418f993-2ddb-425e-a764-0d9e33ef2657_0_3": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,33",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "FullInfo": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "0bc03a72-6196-4d1f-ba64-03345eac49bb",
+                "ParentId": ""
+              },
+              "P_e418f993-2ddb-425e-a764-0d9e33ef2657_0_2": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,32",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "FullInfo": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "19120f8a-4ad4-40c4-8da6-d86351bb51aa",
+                "ParentId": ""
+              },
+              "P_e418f993-2ddb-425e-a764-0d9e33ef2657_0_1": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,31",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "FullInfo": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "a9c5761d-cefb-44d0-be7a-59b291b5ae54",
+                "ParentId": ""
+              },
+              "P_e418f993-2ddb-425e-a764-0d9e33ef2657_0_0": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,30",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "FullInfo": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "ed909d2c-59ac-4661-8144-b05765b2f4e7",
+                "ParentId": ""
+              },
+              "P_e418f993-2ddb-425e-a764-0d9e33ef2657_2_5": {
+                "PortGroup": "UNDEFINED",
+                "SavedPropertyValueMap": {
+                  "P_COMMENT": "50,6F,72,74,20,6E,75,6D,62,65,72,20,35",
+                  "P_SPEEDSELECTION": "03"
+                },
+                "FullInfo": "Port 0 'Unknown'",
+                "ResourceIndex": 0,
+                "ItemId": "6863a2e6-20a2-425c-9898-a4906ce43283",
+                "ParentId": ""
+              }
+            },
+            "PortPeerRelations": {
+              "Relations": []
+            },
+            "UsedPortProperties": {
+              "EnabledGroups": [],
+              "EnabledProperties": [
+                "Description",
+                "SpeedSelection"
+              ]
+            }
+          },
+          "StreamHandler": {
+            "RemoveExistingStreams": true,
+            "ArpForGateways": true,
+            "StreamCountPerPort": 1,
+            "StreamConfigMap": {
+              "0": {
+                "SavedPropertyValueMap": {
+                  "PS_ENABLE": "01",
+                  "PS_COMMENT": "53,74,72,65,61,6D",
+                  "PS_PACKETHEADER": "00,00,00,00,00,00,00,00,00,00,00,00,FF,FF",
+                  "PS_HEADERPROTOCOL": "01",
+                  "PS_RATEFRACTION": "00,01,86,A0"
+                },
+                "FullInfo": "Stream 0/0",
+                "ResourceIndex": 0,
+                "ItemId": "c6c13367-534c-42f9-87dd-1094399b73c0",
+                "ParentId": ""
+              }
+            },
+            "UsedStreamProperties": {
+              "EnabledGroups": [],
+              "EnabledProperties": [
+                "Description",
+                "EnableState",
+                "TxRatePcnt"
+              ]
+            }
+          },
+          "ItemId": "1d06887e-8a33-4ad1-9882-20efe0da4361",
+          "ParentId": "",
+          "FullInfo": ""
+        },
+        "ChartingSettings": {
+          "ShowTrackBall": true,
+          "MaxSamples": 100,
+          "ChartDefinitions": []
+        },
+        "ScheduleSettings": {
+          "CurrentScheduleId": null,
+          "Schedules": []
+        },
+        "ChimeraPortAssocContainer": {
+          "Modified": "2024-12-05T11:43:36.9785167+01:00",
+          "ChimeraPortAssociations": []
+        },
+        "ItemId": "fdb75331-e630-4453-a16f-ee2411956af7",
+        "ParentId": "",
+        "FullInfo": "ttf_4wrs_traffic"
+      }
+    ]
+  },
+  "FormatVersion": 1,
+  "ApplicationVersion": "1.96.8949.2 (1.96.8949.2)",
+  "ItemId": "382bc5ca-bd92-4194-9cbd-dcd24ab4dfa8",
+  "ParentId": "",
+  "FullInfo": ""
+}
