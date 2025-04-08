@@ -1676,7 +1676,7 @@
         "SyncOffDuration": 1,
         "SyncOnDuration": 0,
         "SwitchTestPortRoles": false,
-        "DutAgingTime": 350,
+        "DutAgingTime": 310,
         "PortRoleHandler": {
           "RoleMap": {
             "guid_769b2ffe-04be-4dee-9de2-08d4c8b8cc91": {
@@ -1745,7 +1745,7 @@
         "SyncOffDuration": 1,
         "SyncOnDuration": 0,
         "SwitchTestPortRoles": false,
-        "DutAgingTime": 330,
+        "DutAgingTime": 310,
         "PortRoleHandler": {
           "RoleMap": {
             "guid_769b2ffe-04be-4dee-9de2-08d4c8b8cc91": {
@@ -2016,7 +2016,7 @@
     "CustomerName": "Xena Networks",
     "CustomerServiceID": "",
     "CustomerAccessID": "",
-    "Comments": "Components:\r\n- host: aconbg027 (Windows 10 Enterprise LTSC)\r\n- chassis: XenaBay (140.181.139.228)\r\n- configuration: github.com/GSI-CS-CO/network_testing/wr_RFC_2889/xena_cfg/RFC_2889_1_switch_Xena.x2889\r\n\r\nDUT:\r\n- WRS: scb v3.4, Creotech\r\n- name: nwt0297\r\n- fw: v7.0\r\n- dot-config: default",
+    "Comments": "Components:\r\n- host: aconbg027 (Windows 10 Enterprise LTSC)\r\n- chassis: XenaBay (140.181.139.228)\r\n- configuration: github.com/GSI-CS-CO/network_testing/wr_RFC_2889/xena_cfg/RFC_2889_1_switch_Xena.x2889\r\n\r\nDUT:\r\n- WRS: scb v3.4, Creotech\r\n- name: nwt0297\r\n- fw: v8.0\r\n- dot-config: default",
     "RateUnitTerminology": "FPS",
     "IncludeTestPairInfo": true,
     "IncludePerStreamInfo": false,
@@ -2031,7 +2031,7 @@
     "SaveIntermediateResults": true,
     "AddPreciseTimestampForEachLine": false,
     "IntermediateResultsUseReportNamePrefix": false,
-    "ReportFilename": "xena2889-report_1_wrs_v70",
+    "ReportFilename": "xena2889-report_1_wrs_v80",
     "AppendTimestamp": true
   },
   "TidAllocationScope": "ConfigScope",
